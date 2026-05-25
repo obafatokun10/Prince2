@@ -1,0 +1,413 @@
+{
+  "batch_meta": {
+    "batch_sequence": 11,
+    "questions_included": "169 to 180",
+    "running_total": 180
+  },
+  "scenarios": [
+    {
+      "scenario_id": 57,
+      "scenario_title": "City Smart-Transit Expansion",
+      "scenario_context": "The project is deploying automated signaling across a metropolitan rail network. The project uses PRINCE2 7 governance with Agile delivery sprints.",
+      "questions": [
+        {
+          "question_id": 169,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 1,
+          "stem": "Which document defines the quality baseline for a signaling module?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Product Description",
+              "justification": "defines deliverable criteria."
+            },
+            {
+              "letter": "B",
+              "text": "Business Case",
+              "justification": "defines financial return."
+            },
+            {
+              "letter": "C",
+              "text": "Daily Log",
+              "justification": "defines team logs."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 7",
+          "explain_correct": "Product Descriptions define the product's quality criteria.",
+          "explain_wrong": {
+            "B": "Business case is for justification.",
+            "C": "Logs are for issues."
+          }
+        },
+        {
+          "question_id": 170,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "controlling_a_stage",
+          "marks": 1,
+          "stem": "A supplier reports a major safety defect. Action?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Log as off-specification",
+              "justification": "fails quality criteria."
+            },
+            {
+              "letter": "B",
+              "text": "Ignore it",
+              "justification": "fix later."
+            },
+            {
+              "letter": "C",
+              "text": "Hide in daily log",
+              "justification": "prevent board alarm."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 10",
+          "explain_correct": "Off-specifications must be logged to initiate assessment.",
+          "explain_wrong": {
+            "B": "Ignoring defects causes non-compliance.",
+            "C": "Hiding data violates transparency."
+          }
+        },
+        {
+          "question_id": 171,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match plan with responsibility.",
+            "items": [
+              {"item_id": 1, "text": "High-level board plan."},
+              {"item_id": 2, "text": "Detailed stage plan."},
+              {"item_id": 3, "text": "Granular work package plan."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Project Plan"},
+              {"option_letter": "B", "text": "Stage Plan"},
+              {"option_letter": "C", "text": "Team Plan"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Project Plan is for board oversight.",
+              "item_2": "Stage Plan is for management control.",
+              "item_3": "Team Plan is for delivery."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 58,
+      "scenario_title": "Final Integration Node",
+      "scenario_context": "The project reaches final stage boundary. Handover planning commences.",
+      "questions": [
+        {
+          "question_id": 172,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "closing_a_project",
+          "marks": 1,
+          "stem": "Which document evaluates project performance at closure?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Lessons Report",
+              "justification": "captures management insights."
+            },
+            {
+              "letter": "B",
+              "text": "Business Case",
+              "justification": "justifies pre-project."
+            },
+            {
+              "letter": "C",
+              "text": "Checkpoint Report",
+              "justification": "for stage progress."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 19",
+          "explain_correct": "Lessons Report is created to capture insights.",
+          "explain_wrong": {
+            "B": "Business case is evaluated, not created.",
+            "C": "Checkpoints are for stage execution."
+          }
+        },
+        {
+          "question_id": 173,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "defined_roles",
+          "marks": 1,
+          "stem": "Who is responsible for the Business Case?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Executive",
+              "justification": "owns the investment."
+            },
+            {
+              "letter": "B",
+              "text": "Senior User",
+              "justification": "owns the requirements."
+            },
+            {
+              "letter": "C",
+              "text": "Project Manager",
+              "justification": "owns the admin."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 5",
+          "explain_correct": "Executive owns the business case accountability.",
+          "explain_wrong": {
+            "B": "User owns benefits/usage.",
+            "C": "Manager owns stage control."
+          }
+        },
+        {
+          "question_id": 174,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "initiating_a_project",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match product to role.",
+            "items": [
+              {"item_id": 1, "text": "Authorizes initiation."},
+              {"item_id": 2, "text": "Appoints manager."},
+              {"item_id": 3, "text": "Updates project log."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Board"},
+              {"option_letter": "B", "text": "Executive"},
+              {"option_letter": "C", "text": "Project Manager"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Board gives authorization.",
+              "item_2": "Executive holds role responsibility.",
+              "item_3": "Manager maintains log."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 59,
+      "scenario_title": "Regional Grid Resilience",
+      "scenario_context": "Project is in final delivery. High compliance required.",
+      "questions": [
+        {
+          "question_id": 175,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "What defines tolerances?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Project Board",
+              "justification": "directing level controls."
+            },
+            {
+              "letter": "B",
+              "text": "Team Manager",
+              "justification": "delivery level."
+            },
+            {
+              "letter": "C",
+              "text": "Project Manager",
+              "justification": "no board input."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 11",
+          "explain_correct": "Tolerances are set by the board.",
+          "explain_wrong": {
+            "B": "Teams don't set governance.",
+            "C": "Board must authorize baselines."
+          }
+        },
+        {
+          "question_id": 176,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "What is the primary purpose of the Project Product Description?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Define quality acceptance",
+              "justification": "baseline for customer."
+            },
+            {
+              "letter": "B",
+              "text": "Define team budget",
+              "justification": "financial limit."
+            },
+            {
+              "letter": "C",
+              "text": "Define sprint velocity",
+              "justification": "agile measure."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 7",
+          "explain_correct": "Defines what project must produce.",
+          "explain_wrong": {
+            "B": "Budgets are in the Business Case.",
+            "C": "Velocity is a team measure."
+          }
+        },
+        {
+          "question_id": 177,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match category to meaning.",
+            "items": [
+              {"item_id": 1, "text": "Propose new feature."},
+              {"item_id": 2, "text": "Material failure."},
+              {"item_id": 3, "text": "Operational issue."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Request for change"},
+              {"option_letter": "B", "text": "Off-specification"},
+              {"option_letter": "C", "text": "Problem or concern"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Features are requested changes.",
+              "item_2": "Material failures fail specs.",
+              "item_3": "Operational issues are problems."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 60,
+      "scenario_title": "Smart Grid Finalization",
+      "scenario_context": "Project closure underway.",
+      "questions": [
+        {
+          "question_id": 178,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "closing_a_project",
+          "marks": 1,
+          "stem": "What happens in project closure regarding roles?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Roles release",
+              "justification": "formal end."
+            },
+            {
+              "letter": "B",
+              "text": "Manager becomes owner",
+              "justification": "permanent role."
+            },
+            {
+              "letter": "C",
+              "text": "Supplier keeps managing",
+              "justification": "perpetual."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 19",
+          "explain_correct": "Closure formally releases resources.",
+          "explain_wrong": {
+            "B": "PM role ends.",
+            "C": "Supplier exits."
+          }
+        },
+        {
+          "question_id": 179,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "continued_justification",
+          "marks": 1,
+          "stem": "Can a project proceed without justification?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "No, never",
+              "justification": "core principle."
+            },
+            {
+              "letter": "B",
+              "text": "Yes, if agile",
+              "justification": "agile overrides."
+            },
+            {
+              "letter": "C",
+              "text": "Yes, if board likes",
+              "justification": "subjective."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 2",
+          "explain_correct": "Justification is the driving principle.",
+          "explain_wrong": {
+            "B": "Agile doesn't override governance.",
+            "C": "Subjectivity isn't PRINCE2."
+          }
+        },
+        {
+          "question_id": 180,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "people",
+          "practice_focus": "communication",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match people elements.",
+            "items": [
+              {"item_id": 1, "text": "Formal rules defined."},
+              {"item_id": 2, "text": "Behavioral transition."},
+              {"item_id": 3, "text": "Team relationships."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Communication Approach"},
+              {"option_letter": "B", "text": "Change Management Approach"},
+              {"option_letter": "C", "text": "Organizational context"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Rules are in communication.",
+              "item_2": "Behavior is in change management.",
+              "item_3": "Context is in organization."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

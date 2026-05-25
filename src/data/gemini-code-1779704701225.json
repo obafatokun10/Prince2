@@ -1,0 +1,474 @@
+{
+  "batch_meta": {
+    "batch_sequence": 3,
+    "questions_included": "25 to 36",
+    "running_total": 36
+  },
+  "scenarios": [
+    {
+      "scenario_id": 9,
+      "scenario_title": "RetailApp Overhaul",
+      "scenario_context": "GlobalRetail is executing a major overhaul of its consumer mobile shopping application. The project relies on a hybrid delivery model: the user-facing storefront utilizes an iterative-incremental (Agile) approach across 2-week sprints, while the underlying payment integration and secure server warehouse infrastructure follow a linear-sequential path. The project is currently in Stage 3 (Payment Gateway & Interface Integration). Corporate sustainability performance targets require minimizing data-center server carbon emissions by 15% through optimized code execution parameters.",
+      "questions": [
+        {
+          "question_id": 25,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 1,
+          "stem": "An agile development team raises a change request to introduce an instant-checkout feature on the storefront application. The impact assessment reveals that implementing this feature will require an additional £8,000 from the designated change budget but will not threaten stage-level cost or time tolerances. The project board has previously delegated change authority to a specific Change Advisory Group for storefront modifications up to £10,000. Which action is correct?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The project manager must halt the active sprint and submit an Exception Report to the Executive",
+              "justification": "because any alteration to the approved storefront functional scope baseline must be evaluated by the directing level to maintain commercial alignment."
+            },
+            {
+              "letter": "B",
+              "text": "The Change Advisory Group possesses the authority to review and approve the change request directly",
+              "justification": "because under the PRINCE2 7 Issue Practice, the project board can delegate change authority to a specific individual or group to manage modifications within an explicit budget limit, optimizing decision velocity."
+            },
+            {
+              "letter": "C",
+              "text": "The agile development team can implement the instant-checkout button immediately without formal logging",
+              "justification": "because iterative delivery frameworks grant absolute scope autonomy to the delivery layer during an active time-box."
+            },
+            {
+              "letter": "D",
+              "text": "Log the modification request exclusively inside the long-term Benefits Management Approach ledger",
+              "justification": "because any user interface adjustments instantly change the financial return-on-investment parameters of the corporate retail portal."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 10 (Issue Practice - Change Authority and Budgets) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "The project board can delegate change authority to a separate body to handle changes within defined financial limits. Since the change budget impact (£8,000) falls below the delegated threshold (£10,000) and stays within stage tolerances, the Change Advisory Group can authorize it.",
+          "explain_wrong": {
+            "A": "An Exception Report is only triggered if a stage or project-level tolerance boundary is forecast to be breached, which is not the case here.",
+            "C": "Agile teams must operate within the constraints of their authorized work packages; they cannot change product baselines without formal change control handling.",
+            "D": "The Benefits Management Approach plans the measurement of post-project outcomes; it does not track or authorize active technical code modifications within a stage."
+          }
+        },
+        {
+          "question_id": 26,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "The project manager needs to determine if the development of the payment gateway interface is deviating from the authorized plan. The agile delivery team records their daily progress using burn-up charts and automated Kanban boards. How should the project manager handle this progress tracking data?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Reject the agile team's tracking metrics and force them to populate manual Gantt charts daily",
+              "justification": "because PRINCE2 7 requires all execution progress to be documented using linear-sequential scheduling tools exclusively."
+            },
+            {
+              "letter": "B",
+              "text": "Utilize the team's automated charts and velocity statistics to inform work package monitoring and populate formal reports",
+              "justification": "because the progress practice supports using delivery-level tools and agile metrics to assess execution speed, adapting the governance context to match the delivery method without creating unnecessary duplication."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the Senior Supplier to verify every daily code change personally before updating the stage log",
+              "justification": "because the directing layer must maintain continuous hands-on command over the physical delivery tasks within a sprint."
+            },
+            {
+              "letter": "D",
+              "text": "Omit weekly progress evaluations and rely entirely on the final project closure review",
+              "justification": "since hybrid e-commerce projects are exempt from tracking intermediate stage deviations under corporate governance frameworks."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 4 (Delivery Methods), Chapter 11 (Progress Practice), & Chapter 16 (Managing Product Delivery Process)",
+          "explain_correct": "PRINCE2 7 explicitly embraces agile delivery methods. The project manager can leverage delivery-level progress metrics (like velocity or Kanban charts) to monitor work package performance and generate highlight reports, matching the delivery context.",
+          "explain_wrong": {
+            "A": "PRINCE2 7 does not restrict progress tracking to linear tools like Gantt charts; it allows tailoring to integrate with agile frameworks.",
+            "C": "The Senior Supplier provides strategic governance and assurance; forcing them to micromanage daily code commits violates role separation principles.",
+            "D": "Relying solely on project closure breaks active control protocols and exposes the stage baseline to unmanaged tolerance breaches."
+          }
+        },
+        {
+          "question_id": 27,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific technical scenario encountered during the RetailApp stage execution (Items 1-3) with its correct PRINCE2 7 Issue categorization type (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The primary payment server gateway crashes during integration testing, completely halting all automated clearing operations within the active stage plan."},
+              {"item_id": 2, "text": "A formal proposal is submitted by the marketing director to integrate a localized loyalty points system into the checkout screen layout."},
+              {"item_id": 3, "text": "The security team discovers that the finalized database encryption architecture fails to comply with a mandatory payment card industry data standard baseline."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Problem or concern"},
+              {"option_letter": "B", "text": "Request for change"},
+              {"option_letter": "C", "text": "Off-specification"},
+              {"option_letter": "D", "text": "Risk threat"},
+              {"option_letter": "E", "text": "Risk opportunity"},
+              {"option_letter": "F", "text": "Project mandate"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "A problem or concern is an event that has occurred, is not a request for change or an off-specification, and requires project manager attention. Ref 10.4.1",
+              "item_2": "A request for change is a formal proposal to modify an approved product baseline or introduce a new feature. Ref 10.4.1",
+              "item_3": "An off-specification refers to a product item that has been delivered or is forecast to be delivered but does not meet its authorized specifications or quality criteria. Ref 10.4.1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 10,
+      "scenario_title": "EduLearn Mobile VR Phase II",
+      "scenario_context": "EduLearn Phase II is an internal expansion project to port virtual reality educational modules to mobile operating systems. The project is currently in Stage 2 (Asset Delivery and Optimization) and operates within a commercial matrix organization structure. The project manager coordinates with an external specialized graphics vendor, RenderArt (the Supplier), under a fixed-fee contract for 3D asset optimization. Project management maturity is medium. Clear scope parameters apply regarding interactive asset thresholds.",
+      "questions": [
+        {
+          "question_id": 28,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "Before authorizing the creation of the 3D mobile character assets, the project manager wants to document the explicit quality attributes, performance boundaries, and user testing methods that the final models must satisfy. Which management product should be created or updated?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The baseline project-level Business Case document text",
+              "justification": "because financial justification parameters must explicitly outline the polygon dimensions of mobile software graphics."
+            },
+            {
+              "letter": "B",
+              "text": "An individual Product Description for the character assets",
+              "justification": "because under the Plans and Quality practices, a Product Description must define the specific purpose, composition, quality criteria, tolerances, and verification methods for a deliverable before creation begins, focusing on the output."
+            },
+            {
+              "letter": "C",
+              "text": "The project manager's informal Daily Log scratchpad file",
+              "justification": "to keep the technical verification criteria hidden from the external vendor's engineers."
+            },
+            {
+              "letter": "D",
+              "text": "The project's macro-level Benefits Management Approach blueprint",
+              "justification": "because tracking asset quality criteria allows the project board to evaluate post-project student feedback metrics dynamically."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 7 (Quality Practice - Product Descriptions) & Chapter 8 (Plans Practice)",
+          "explain_correct": "PRINCE2 requires product-based planning. Individual Product Descriptions must be compiled to establish the baseline quality expectations and metrics against which the deliverable will be audited before formal acceptance.",
+          "explain_wrong": {
+            "A": "The Business Case justifies the commercial investment; it does not house the technical design metrics for individual products.",
+            "C": "Using an informal log for mandatory quality specifications violates product-based planning principles and introduces severe compliance risk.",
+            "D": "The Benefits Management Approach schedules post-project benefit realizations, not execution-phase product quality parameters."
+          }
+        },
+        {
+          "question_id": 29,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "manage_by_stages",
+          "marks": 1,
+          "stem": "Because the project is small and has a short timeline, the project manager suggests skipping the 'initiating a project' process entirely and moving straight from the project brief approval into the physical production of character assets. Is this strategy appropriate?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, because low-complexity educational projects possess automatic exemption from conducting baseline planning phases",
+              "justification": "allowing delivery teams to bypass administrative controls and accelerate execution velocity."
+            },
+            {
+              "letter": "B",
+              "text": "No, because the manage by stages principle requires at least two management stages, the first of which is the initiation stage,",
+              "justification": "ensuring that the project baselines, risk approaches, and business justification are formally approved by the board before major capital is released for asset fabrication."
+            },
+            {
+              "letter": "C",
+              "text": "Yes, because the Project Mandate document already contains the complete baseline schedule parameters required for execution",
+              "justification": "rendering subsequent planning processes entirely redundant."
+            },
+            {
+              "letter": "D",
+              "text": "No, because tailoring dictates that small projects must incorporate at least six separate execution stages",
+              "justification": "to guarantee continuous board scrutiny over commercial vendor contracts."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Manage by Stages) & Chapter 11 (Progress Practice)",
+          "explain_correct": "The manage by stages principle is mandatory. Every PRINCE2 project must have an initiation stage to establish control lines, followed by at least one execution stage. Bypassing initiation removes the governance required to baseline the project.",
+          "explain_wrong": {
+            "A": "Small projects can scale the complexity of documents, but they cannot tailor out mandatory principles or skip the initiation stage.",
+            "C": "The Project Mandate is an unvalidated external trigger that must be expanded and analyzed before project launch.",
+            "D": "Enforcing six stages on a short, simple project adds excessive administrative overhead and directly violates the tailoring principle."
+          }
+        },
+        {
+          "question_id": 30,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_product_delivery",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific execution task performed by RenderArt's Team Manager (Items 1-3) with its correct PRINCE2 7 Process activity description (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Formally evaluating the project manager's authorized work package description to confirm resource availability and agree to the delivery parameters."},
+              {"item_id": 2, "text": "Supervising the optimization of the 3D character meshes and running internal quality checking routines against the asset product specifications."},
+              {"item_id": 3, "text": "Assembling the completed graphic files along with the quality verification logs to return control of the deliverables back to the project manager."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Accept a work package"},
+              {"option_letter": "B", "text": "Execute a work package"},
+              {"option_letter": "C", "text": "Deliver a work package"},
+              {"option_letter": "D", "text": "Authorize a work package"},
+              {"option_letter": "E", "text": "Review work package status"},
+              {"option_letter": "F", "text": "Receive completed work packages"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Accepting a work package is the initial delivery-layer activity where the Team Manager agrees to the task constraints baseline. Ref 16.4.1",
+              "item_2": "Executing a work package involves the physical creation and quality testing of the defined product deliverables. Ref 16.4.2",
+              "item_3": "Delivering a work package requires the Team Manager to formally hand over completed and quality-checked products to the project manager. Ref 16.4.3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 11,
+      "scenario_title": "FinPay Global Clearing Expansion",
+      "scenario_context": "FinPay Global is a multi-national financial clearing compliance project currently in Stage 3 (Pre-Live Validation and Regulatory Alignment). The project features a high-maturity governance framework. Because of the extreme sensitivity of the core payment software, the Project Board has established a formal Change Control Board (CCB) to act as the Change Authority for technical modifications. The bank's internal auditing division (the Customer) expects complete traceability of compliance metrics.",
+      "questions": [
+        {
+          "question_id": 31,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 1,
+          "stem": "The CCB receives a request to update the database formatting logic to comply with a new Eurozone data directive. The impact assessment shows that implementing the change will cost an extra £90,000, which exceeds the designated change budget and will breach the authorized stage cost tolerance limit. Which action should the CCB take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Approve the expenditure immediately and allocate the funds from the corporate baseline reserve",
+              "justification": "because a designated Change Authority possesses absolute power to override stage tolerances for regulatory compliance items."
+            },
+            {
+              "letter": "B",
+              "text": "Refer the change request back to the main Project Board along with the impact assessment data",
+              "justification": "because under the PRINCE2 7 Issue Practice, a delegated Change Authority can only authorize modifications within their allocated budget limits; changes that cause a tolerance breach create an exception requiring a directive from the full directing level."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the project manager to implement the modification silently using personal credit lines",
+              "justification": "to shield the bank's clearing project from standard regulatory audits and financial red tape."
+            },
+            {
+              "letter": "D",
+              "text": "Log the directive parameter inside the project's informal Lessons Log for future analysis",
+              "justification": "to ensure the current stage execution line can proceed without modifying product configurations."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 10 (Issue Practice - Change Authority Delegations) & Chapter 14 (Directing a Project Process)",
+          "explain_correct": "A Change Authority’s boundaries are strictly delegated. If a modification request causes a forecast breach of stage tolerances, it escalates beyond the Change Authority’s mandate and must be referred to the Project Board for an exception decision.",
+          "explain_wrong": {
+            "A": "The CCB cannot unilaterally expand overall stage budgets or break authorized project tolerances.",
+            "C": "Hiding expenditure adjustments or using personal funds breaks financial governance standards and violates professional integrity.",
+            "D": "Active regulatory compliance mandates cannot be deferred to a passive post-project log; they demand formal change control processing."
+          }
+        },
+        {
+          "question_id": 32,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 1,
+          "stem": "The project manager needs to establish a definitive record that tracks the precise version history, configuration components, deployment status, and structural relationships of the core payment integration module. Which product should be used?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The long-term Benefits Management Approach ledger",
+              "justification": "because tracking code builds allows corporate finance teams to calculate bank asset valuations accurately."
+            },
+            {
+              "letter": "B",
+              "text": "A Configuration Item Record",
+              "justification": "because under the Issue and Change practice, a Configuration Item Record provides a baseline record of a specific product deliverable's metadata, versions, and dependencies, preventing configuration corruption."
+            },
+            {
+              "letter": "C",
+              "text": "The project's high-level Initial Project Brief document",
+              "justification": "to ensure visual interface designs remain frozen prior to launching active testing stages."
+            },
+            {
+              "letter": "D",
+              "text": "The temporary Daily Log scratchpad file",
+              "justification": "allowing developers to track critical software source components informally over chat tools."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 10 (Issue Practice - Configuration Management) & Appendix A",
+          "explain_correct": "Configuration management requires maintaining accurate data for products. A Configuration Item Record tracks the version history, lifecycle status, and components of a product, ensuring version control is maintained.",
+          "explain_wrong": {
+            "A": "The Benefits Management Approach tracks outcome targets, not technical software configuration items or metadata.",
+            "C": "The Project Brief is a static pre-initiation product and cannot track dynamic version adjustments during execution.",
+            "D": "An informal daily log cannot substitute for rigorous configuration tracking in a high-maturity financial compliance environment."
+          }
+        },
+        {
+          "scenario_id": 11,
+          "question_id": 33,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific management exception type or tolerance variable encountered during the FinPay validation phase (Items 1-3) with its correct PRINCE2 7 Progress attribute definition (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The allowed boundary of variation governing the total financial expenditure allocated to the pre-live security sweep stage plan."},
+              {"item_id": 2, "text": "The allowed range of variation governing the specific cryptographic key size and decryption response times specified in the product description."},
+              {"item_id": 3, "text": "The specific boundary of variation governing the maximum permissible threat value or risk exposure score allocated to the transaction routing matrix."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Cost tolerance"},
+              {"option_letter": "B", "text": "Quality tolerance"},
+              {"option_letter": "C", "text": "Risk tolerance"},
+              {"option_letter": "D", "text": "Time tolerance"},
+              {"option_letter": "E", "text": "Scope tolerance"},
+              {"option_letter": "F", "text": "Benefit tolerance"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Cost tolerance specifies the permissible variation around a plan's authorized financial allocations. Ref 11.4.2",
+              "item_2": "Quality tolerance defines the allowable range of variation for a deliverable's attributes or performance metrics as recorded in its description. Ref 11.4.2",
+              "item_3": "Risk tolerance defines the authorized threshold of risk exposure that a plan or stage can accept before escalation is required. Ref 11.4.2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 12,
+      "scenario_title": "GreenTransit Marine Logistics Hub",
+      "scenario_context": "GreenTransit Marine Logistics Hub is a major port automation project currently in Stage 3 (Automated Crane Systems Deployment). The project incorporates complex engineering workflows and is bound by severe corporate environmental mandates. Specifically, the project must adhere to an absolute sustainability performance target: minimizing active operational carbon output by 20% across all maritime logistics machinery. The supplier base includes international engineering contractors.",
+      "questions": [
+        {
+          "question_id": 34,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "During Stage 3, the crane engineering supplier notes that the energy-efficient motors required to meet the 20% carbon reduction target have increased in price by £45,000. Sourcing standard motors will preserve the stage cost baseline but will drop the carbon savings down to 12%, breaching the sustainability tolerance minimum limit. Which action should the project manager take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Purchase the standard motors immediately to prioritize the financial cost variable",
+              "justification": "because financial parameters always possess supreme authority over environmental commitments during active execution stages."
+            },
+            {
+              "letter": "B",
+              "text": "Log the conflict in the register and submit an Exception Report to the Project Board",
+              "justification": "because sustainability is an independent, core project performance variable in PRINCE2 7, and a forecast breach of *any* agreed tolerance boundary constitutes an exception that requires direct escalation to the directing level for a decision."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the construction crew to adjust the emissions tracking software to report false carbon data",
+              "justification": "to preserve an illusion of environmental compliance on the parent organization's corporate dashboards."
+            },
+            {
+              "letter": "D",
+              "text": "Unilaterally delete the Sustainability Management Approach from the Project Initiation Documentation",
+              "justification": "to eliminate carbon footprint constraints from the project lifecycle entirely without board oversight."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 4 (Sustainability Context), Chapter 11 (Progress Practice - Tolerances), & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "Sustainability is one of the seven performance variables in PRINCE2 7. If an event or trade-off causes a forecast breach of sustainability tolerances, it creates an exception. The project manager cannot authorize the variance and must escalate it via an Exception Report to the board.",
+          "explain_wrong": {
+            "A": "Sustainability targets are formal project parameters and are not subordinate to cost boundaries; trade-offs require board authority.",
+            "C": "Falsifying metrics violates ethical codes and breaks data management principles.",
+            "D": "The project manager has no authority to delete authorized management approaches or baseline constraints from the PID."
+          }
+        },
+        {
+          "question_id": 35,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "learn_from_experience",
+          "marks": 1,
+          "stem": "The crane assembly crew discovers that pre-heating structural joints cuts alignment calibration time in half, a technique not documented in standard port engineering manuals. The project manager wants to apply this insight to accelerate the upcoming assembly stages. Which action is correct?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Keep the calibration modification confidential within the local shipyard",
+              "justification": "to protect an artificial productivity buffer for the mechanical installation contractors."
+            },
+            {
+              "letter": "B",
+              "text": "Record the insight in the Lessons Log immediately and incorporate it into the planning for subsequent stages",
+              "justification": "because the 'learn from experience' principle requires that lessons are actively sought, recorded, and acted upon throughout the project lifecycle to optimize performance variables and drive delivery efficiency."
+            },
+            {
+              "letter": "C",
+              "text": "Defer logging the engineering observation until the final project closure process is launched",
+              "justification": "because updating project log files during active management stages is strictly prohibited under the rules."
+            },
+            {
+              "letter": "D",
+              "text": "Update the initial pre-project Project Mandate document text layout directly",
+              "justification": "to alter the broad strategic goals issued by corporate executives before the project was funded."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Learn from Experience) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "Learning from experience is a continuous principle. When an efficiency or improvement is identified, it must be recorded in the Lessons Log immediately so it can be utilized in ongoing or future stages of the project.",
+          "explain_wrong": {
+            "A": "Hoarding efficiencies breaks the collaborative culture and process optimization goals required by the framework.",
+            "C": "PRINCE2 promotes active continuous learning; delaying logs until closure prevents the current project from benefiting from the insight.",
+            "D": "The Project Mandate is an obsolete external trigger document and cannot be updated to track mid-stage engineering discoveries."
+          }
+        },
+        {
+          "question_id": 36,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "business_case",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific post-project benefit measurement requirement (Items 1-3) with its correct PRINCE2 7 Business Case tracking tool (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The management product that details exactly how, when, and by whom the long-term port fuel savings and environmental tax credits will be audited 18 months after project closure."},
+              {"item_id": 2, "text": "The role responsible for taking active ownership of the automated crane systems and verifying benefit realization post-project closure."},
+              {"item_id": 3, "text": "The individual role accountable for ensuring that the total project investment remains aligned with corporate financial returns and value for money parameters."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Benefits Management Approach"},
+              {"option_letter": "B", "text": "Senior User"},
+              {"option_letter": "C", "text": "Executive"},
+              {"option_letter": "D", "text": "Project Plan"},
+              {"option_letter": "E", "text": "Daily Log"},
+              {"option_letter": "F", "text": "Senior Supplier"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The Benefits Management Approach defines the post-project measurement actions, timelines, and responsibilities for validating value realization. Ref 6.4.3",
+              "item_2": "The Senior User represents the user interests and is responsible for utilizing the outputs to realize the projected benefits. Ref 5.4.2",
+              "item_3": "The Executive owns the Business Case and is ultimately accountable for ensuring the project delivers value for money. Ref 5.4.1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

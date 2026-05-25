@@ -1,0 +1,950 @@
+{
+  "question_bank_meta": {
+    "version": "PRINCE2_7_MASTER_PRACTITIONER_CONSOLIDATED",
+    "total_target_questions": 180,
+    "syllabus_weighting_matrix": {
+      "practices": "93 Questions (51.43%)",
+      "processes": "54 Questions (30.00%)",
+      "principles": "18 Questions (10.00%)",
+      "people": "15 Questions (8.57%)"
+    },
+    "format_constraints": {
+      "classic_1_mark": "Stem + 4 Options structured strictly as [Action/Decision] + 'because' + [Justification grounded in the PRINCE2 7 text]",
+      "matching_3_mark": "3 Items matched against 5 or 6 Options with explicit correct_pairings and rationales. No sequencing or assertion/reason allowed"
+    },
+    "people_element_products": [
+      "communication_management_approach",
+      "change_management_approach"
+    ]
+  },
+  "scenarios": [
+    {
+      "scenario_id": 1,
+      "scenario_title": "GreenTransit Fleet Integration",
+      "scenario_context": "GreenTransit is a commercial logistics firm upgrading its operations to an all-electric fleet. The project is currently in Stage 2 (Initial Fleet Acquisition). The corporate environmental office mandates that carbon emission savings must achieve at least 42% over 3 years (Sustainability performance target). The project has an agreed cost tolerance of ±£75,000 and a time tolerance of ±3 weeks. Two third-party suppliers are engaged: VoltDrive (supplying vehicle chassis blocks) and TelematicsIQ (developing embedded route-optimization tracking software). Strained relationships exist between internal logistics coordinators and the TelematicsIQ engineering team regarding data entry complexity.",
+      "questions": [
+        {
+          "question_id": 1,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "During Stage 2, VoltDrive reports that a bottleneck in lithium cell supply will delay chassis delivery by 4 weeks. The project manager calculates that this delay will cause the current stage completion date to breach its authorized time tolerance by 1 week. Which action should the project manager take first?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Update the Stage Plan with the new dates and continue managing delivery",
+              "justification": "because the project manager has delegated authority to dynamically adjust stage timelines to maintain supplier execution velocity."
+            },
+            {
+              "letter": "B",
+              "text": "Prepare an Exception Report and submit it to the Project Board",
+              "justification": "because under the manage by exception principle, if a stage baseline is forecast to breach its agreed tolerance limits, the project manager must escalate the exception to the directing level for a decision."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the Team Manager to log the cell shortage in the Quality Register",
+              "justification": "because a materials shortage directly impacts the structural attributes of the physical deliverables being built by the supplier."
+            },
+            {
+              "letter": "D",
+              "text": "Request an immediate project-level budget increase from the corporate Executive",
+              "justification": "because any timeline slippage at the stage layer automatically invalidates the project's macro financial return projections."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 11 (Progress Practice) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "A forecast tolerance breach constitutes an exception. Under the manage by exception principle, the project manager loses the authority to resolve the deviation within the current plan and must escalate it via an Exception Report to the Project Board.",
+          "explain_wrong": {
+            "A": "The project manager cannot unilaterally change an authorized stage baseline once a tolerance breach is forecast.",
+            "C": "Resource shortages are execution risks or issues, not product manufacturing defects tracked in the Quality Register.",
+            "D": "Escalation must follow the defined governance path via an Exception Report to the board first; the project manager cannot directly rewrite project-level budgets without a board directive."
+          }
+        },
+        {
+          "question_id": 2,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "people",
+          "product_focus": "change_management_approach",
+          "marks": 1,
+          "stem": "The project manager is drafting the management product designed to guide GreenTransit's internal logistics coordinators through the operational disruptions and system adjustments caused by the TelematicsIQ software deployment. Is this an appropriate application of the change management approach?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, because the change management approach defines the specific interventions needed to manage the human and organizational transition",
+              "justification": "ensuring stakeholders transition smoothly from old ways of working to the new state, which directly supports the People element."
+            },
+            {
+              "letter": "B",
+              "text": "Yes, because the change management approach is the primary tool used to record the physical quality configurations of the software",
+              "justification": "ensuring the interface modules match the technical blueprint specifications."
+            },
+            {
+              "letter": "C",
+              "text": "No, because adjustments to human operational workflows must be managed exclusively within corporate business-as-usual line management",
+              "justification": "as PRINCE2 7 frameworks are restricted to monitoring physical material assets."
+            },
+            {
+              "letter": "D",
+              "text": "No, because the project manager should document these human training parameters inside the commercial procurement strategy",
+              "justification": "to bind the supplier's engineers to legal deployment targets."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 3 (People Element) & Appendix A (Change Management Approach)",
+          "explain_correct": "The change management approach is elevated in PRINCE2 7 to support the People element. It defines the framework and structured interventions required to address the human side of change, driving user adoption of the project's outputs.",
+          "explain_wrong": {
+            "B": "Configuration Item Records and Product Descriptions track physical quality configurations, not human transition approaches.",
+            "C": "PRINCE2 7 places people at the center of the method, recognizing that organizational change management is a core project responsibility.",
+            "D": "The commercial procurement strategy handles vendor sourcing and contracts, not internal user transition and adoption strategies."
+          }
+        },
+        {
+          "question_id": 3,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "organization",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific organizational scenario or governance requirement (Items 1-3) with the correct PRINCE2 7 Project Board role interest (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Needs to verify that the electric fleet route-optimization tracking modules satisfy international digital security compliance baselines and technical development standards."},
+              {"item_id": 2, "text": "Needs to confirm that the electric delivery vehicles operate reliably under actual winter conditions and that logistics coordinators can use the dashboard efficiently."},
+              {"item_id": 3, "text": "Needs to guarantee that the total capital investment in the electric fleet delivers the projected 42% carbon reduction profile and represents value for money against corporate expenditure limits."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Executive"},
+              {"option_letter": "B", "text": "Senior User"},
+              {"option_letter": "C", "text": "Senior Supplier"},
+              {"option_letter": "D", "text": "Project Manager"},
+              {"option_letter": "E", "text": "Team Manager"},
+              {"option_letter": "F", "text": "Project Support"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "C"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "A"}
+            ],
+            "rationales": {
+              "item_1": "The Senior Supplier represents the interests of those designing and developing the project’s products, ensuring technical compliance and quality standards.",
+              "item_2": "The Senior User represents the interests of those who will use, operate, or maintain the project’s outputs to realize benefits post-delivery.",
+              "item_3": "The Executive represents the business interest, owns the Business Case, and holds ultimate accountability for ensuring the project remains justified."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 2,
+      "scenario_title": "NowByou Advocacy Campaign",
+      "scenario_context": "NowByou is a not-for-profit organization launching a nationwide advocacy campaign to encourage the reporting of discriminatory incidents. The project is currently in Stage 1 (Initiation). The project management maturity of the organization is low, with no standardized templates. The project must align with a strict corporate sustainability target mandating a paperless delivery model (100% digital media footprint). A benefit tolerance is defined around media reach metrics. The Senior User role is split between regional network coordinators and community group chairs.",
+      "questions": [
+        {
+          "question_id": 4,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "tailor_to_suit",
+          "marks": 1,
+          "stem": "Given the low project management maturity of NowByou, the project manager wants to simplify the project documentation. How should the framework be tailored to accommodate this context without losing control?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Eliminate the Risk and Issue Registers from the project environment completely",
+              "justification": "because small non-governmental projects are exempt from tracking operational uncertainties under the framework rules."
+            },
+            {
+              "letter": "B",
+              "text": "Combine the elements of the management approaches directly into the Project Initiation Documentation text",
+              "justification": "because the principle of tailor to suit the project requires scaling management products to match the project's complexity and organizational maturity to avoid excessive administrative overhead."
+            },
+            {
+              "letter": "C",
+              "text": "Delegate all progress monitoring and stage baseline controls to the community group chairs",
+              "justification": "because users should hold direct operational command of scheduling decisions when maturity is low."
+            },
+            {
+              "letter": "D",
+              "text": "Abandon stage definitions and manage progress entirely via informal weekly phone calls",
+              "justification": "because tailoring allows for the complete omission of the manage by stages principle in non-profit environments."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Tailor to suit) & Chapter 4 (Tailoring PRINCE2)",
+          "explain_correct": "Tailoring modifies the form, complexity, and combination of management products to suit the organizational capability and risk context. Combining registers or embedding approaches into the PID prevents unnecessary bureaucratic overhead while ensuring baseline data control lines are structurally preserved.",
+          "explain_wrong": {
+            "A": "Risks and issues must always be tracked; completely removing registers violates the core method controls.",
+            "C": "The project manager is responsible for creating and maintaining plans; the board provides direction, not operational execution.",
+            "D": "The 'manage by stages' principle is non-negotiable and cannot be tailored out of a project."
+          }
+        },
+        {
+          "question_id": 5,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "people",
+          "product_focus": "communication_management_approach",
+          "marks": 1,
+          "stem": "Regional coordinators report that certain marginalized demographics lack digital access, making digital communication ineffective. The project manager wants to update the rules governing how progress data is communicated to these stakeholders. Which action is appropriate?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Modify the Communication Management Approach to incorporate localized physical briefings",
+              "justification": "because the communication management approach must establish clear pathways, formats, and frequencies for information exchange based on shifting stakeholder accessibility needs to optimize relationships."
+            },
+            {
+              "letter": "B",
+              "text": "Log the accessibility issue directly into the final End Project Report as a closed deviation",
+              "justification": "because communication tracking approach modifications can only be evaluated post-project."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the coordinators to ignore non-digital groups to preserve the paperless sustainability target",
+              "justification": "because environmental performance variables always hold absolute supremacy over stakeholder relationships."
+            },
+            {
+              "letter": "D",
+              "text": "Unilaterally suspend the project until digital infrastructure is locally deployed",
+              "justification": "because the project manager holds executive authority to halt execution if communication channels fail."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 3 (People Element) & Appendix A (Communication Management Approach)",
+          "explain_correct": "The communication management approach defines the formal rules for information exchange. Under the PRINCE2 7 People element, it must flex to address structural communication barriers among stakeholders to maintain relationship health and project alignment.",
+          "explain_wrong": {
+            "B": "Communication channels must be adapted dynamically during active execution stages, not deferred until closure.",
+            "C": "Sustainability is a key variable, but it must be balanced alongside scope, benefits, and stakeholder needs via board escalation, not unilateral exclusion of users.",
+            "D": "Project suspension or termination decisions belong exclusively to the Project Board, not the project manager."
+          }
+        },
+        {
+          "question_id": 6,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "business_case",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific business case term or parameter described in the NowByou campaign (Items 1-3) with the correct PRINCE2 7 Business Case definition tool (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "An expected 30% increase in nationwide incident reporting to police forces within 6 months of campaign closure, advancing the human rights framework."},
+              {"item_id": 2, "text": "A calculated investment of £60,000 required from the corporate reserve to execute the digital media rollout packages."},
+              {"item_id": 3, "text": "An expected consequence where low digital access among homeless groups results in localized criticism from regional advocacy coalitions regarding campaign equity."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Benefit"},
+              {"option_letter": "B", "text": "Dis-benefit"},
+              {"option_letter": "C", "text": "Cost"},
+              {"option_letter": "D", "text": "Risk Threat"},
+              {"option_letter": "E", "text": "Risk Opportunity"},
+              {"option_letter": "F", "text": "Project Mandate"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "C"},
+              {"item_id": 3, "matched_option": "B"}
+            ],
+            "rationales": {
+              "item_1": "A benefit is a measurable improvement resulting from an outcome perceived as an advantage by one or more stakeholders.",
+              "item_2": "Cost refers to the total financial capital required to deliver the project's outputs as baselined in the business case.",
+              "item_3": "A dis-benefit is an expected, measurable negative consequence of an outcome perceived as a disadvantage by one or more stakeholders."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 3,
+      "scenario_title": "AlphaHealth Diagnostics Portal",
+      "scenario_context": "AlphaHealth is delivering an online portal for real-time patient diagnostics. The project utilizes an iterative-incremental (Agile) delivery method within a formal PRINCE2 7 governance framework. The project is currently in Stage 3 (Functional Component Delivery). Software updates are developed in highly structured, time-boxed 2-week sprints. The Senior User role is held by regional hospital medical directors. The Senior Supplier is AlphaHealth's internal Director of Software Engineering. The project incorporates strict digital data management controls and must achieve rigorous clinical safety certifications.",
+      "questions": [
+        {
+          "question_id": 7,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_product_delivery",
+          "marks": 1,
+          "stem": "During a sprint planning session within Stage 3, the software development Team Manager realizes that implementing a mandatory data privacy encryption algorithm will take 5 days longer than scheduled, meaning the current Work Package time boundary will be missed. Which action must the Team Manager take first?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unilaterally adjust the overall stage schedule baseline during the daily stand-up meeting",
+              "justification": "because agile frameworks grant absolute timeline authority to the delivering level to optimize sprint cycles."
+            },
+            {
+              "letter": "B",
+              "text": "Immediately raise an issue to notify the project manager about the forecast work package variance",
+              "justification": "because a Team Manager operates strictly within the boundaries of an authorized Work Package and must escalate any forecast deviations to the managing layer to preserve governance links."
+            },
+            {
+              "letter": "C",
+              "text": "Escalate the delay directly to the regional hospital medical directors via a formal email",
+              "justification": "because the Senior User holds ultimate accountability for resolving technical software programming delays."
+            },
+            {
+              "letter": "D",
+              "text": "Log the timeline deviation exclusively inside the final End Project Report at closure",
+              "justification": "because process tracking exceptions are only evaluated during the formal project shutdown phase."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 11 (Progress Practice) & Chapter 16 (Managing Product Delivery Process)",
+          "explain_correct": "The Team Manager operates at the delivery layer under an authorized Work Package. If a work package boundary or assigned tolerance is forecast to be exceeded, the Team Manager must immediately raise this as an issue to the project manager at the managing layer.",
+          "explain_wrong": {
+            "A": "Agile velocity does not permit changing project board authorized stage or work package baselines without reporting.",
+            "C": "The Team Manager has no direct escalation loop to the board; they report strictly to the project manager.",
+            "D": "Waiting until closure to log an active mid-stage execution delay violates active control requirements."
+          }
+        },
+        {
+          "question_id": 8,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 1,
+          "stem": "The Senior User emphasizes that clinical safety validation routines cannot be omitted under any circumstances, but notes that the user-interface visual layout should adapt based on feedback from weekly clinical focus groups. How should the project manager configure product planning?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Omit the Project Product Description to prevent fixing any early baseline constraints",
+              "justification": "because iterative delivery methods mandate total requirements flexibility from day one."
+            },
+            {
+              "letter": "B",
+              "text": "Define fixed, non-negotiable clinical safety metrics in the Project Product Description, while using flexible component Product Descriptions for interface modules",
+              "justification": "because PRINCE2 7 product-based planning accommodates iterative methods by keeping high-level strategic quality baselines fixed while allowing component details to evolve dynamically."
+            },
+            {
+              "letter": "C",
+              "text": "Delegate ultimate quality baseline sign-off authority directly to the agile programmers",
+              "justification": "because technical engineers hold final accountability for safety configurations under the framework."
+            },
+            {
+              "letter": "D",
+              "text": "Freeze all user-interface layouts inside the Quality Register during pre-project start-up",
+              "justification": "to guarantee that visual mock-ups cannot be altered during subsequent development sprints."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 7 (Quality Practice - Product-Based Planning & Agile Integration)",
+          "explain_correct": "PRINCE2 7 supports agile integration by establishing fixed macro-level safety and customer expectations in the Project Product Description, while letting individual delivery-level component Product Descriptions be elaborated incrementally as user feedback is gathered.",
+          "explain_wrong": {
+            "A": "The Project Product Description is mandatory to establish the project boundary and customer expectations.",
+            "C": "The board, not the delivery team, holds ultimate accountability for authorizing quality and safety criteria.",
+            "D": "The Quality Register tracks tests and results, it does not store technical design layouts, nor can visual baselines be frozen pre-project in an iterative model."
+          }
+        },
+        {
+          "question_id": 9,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "controlling_a_stage",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific project manager activity within the 'controlling a stage' process (Items 1-3) with its correct process description or purpose statement (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Reviewing automated sprint charts and velocity logs provided by the software team manager to check actual progress against the authorized Stage Plan baseline."},
+              {"item_id": 2, "text": "Formally checking completed clinical safety validation forms and test logs before signing off on the data access software component bundle."},
+              {"item_id": 3, "text": "Assessing a critical transaction error reported by a laboratory tester, determining its operational cost impact, and recording it in the Issue Register."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Review work package status"},
+              {"option_letter": "B", "text": "Receive completed work packages"},
+              {"option_letter": "C", "text": "Capture and examine issues and risks"},
+              {"option_letter": "D", "text": "Authorize a work package"},
+              {"option_letter": "E", "text": "Take corrective action"},
+              {"option_letter": "F", "text": "Report progress"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Reviewing work package status involves evaluating progress data from the delivery layer to ensure execution lines remain safe.",
+              "item_2": "Receiving a completed work package requires checking quality records to confirm that products satisfy criteria before formal acceptance.",
+              "item_3": "Capturing and examining issues and risks involves identifying deviations or uncertainties and analyzing their threat to tolerances."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 4,
+      "scenario_title": "FinPay Consortium Upgrade",
+      "scenario_context": "The FinPay Consortium project involves upgrading the core payment-clearing architecture for a group of major banking institutions (the Customer). The technical delivery is outsourced via a formal commercial contract to an enterprise software vendor, ApexSystems (the Supplier). Stage 2 (Core Architecture Migration) is underway. Strained relationships have emerged between the Customer Executive and the ApexSystems Delivery Director due to differing views on risk exposure and change request pricing. The project is highly sensitive to regulatory compliance and requires robust data management governance.",
+      "questions": [
+        {
+          "question_id": 10,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 1,
+          "stem": "The banking consortium's digital security officer requests a formal change to add an extra layer of multi-factor authentication to the payment gateway. This modification impacts the approved product baseline. Which action should the project manager take first?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Instruct ApexSystems to program the feature immediately for free",
+              "justification": "because suppliers are contractually forced to absorb major scope creep within active execution stages."
+            },
+            {
+              "letter": "B",
+              "text": "Log the request in the Issue Register as a Request for Change and conduct an impact assessment",
+              "justification": "because under the PRINCE2 7 Issue Practice, any modification that impacts an approved product baseline must be formally captured and analyzed across all seven performance variables before a decision is made."
+            },
+            {
+              "letter": "C",
+              "text": "Note the security request privately in the Daily Log as an informal diary reminder",
+              "justification": "to keep the design adjustment hidden from the commercial contract managers."
+            },
+            {
+              "letter": "D",
+              "text": "Decline the request and instruct the security officer to resubmit it during final project closure",
+              "justification": "because product configuration baselines cannot undergo evaluation during active management stages."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 10 (Issue Practice) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "A formal modification request is classified as a Request for Change. The Issue Practice dictates that it must be entered into the Issue Register to undergo formal impact analysis regarding cost, time, scope, quality, risk, benefits, and sustainability.",
+          "explain_wrong": {
+            "A": "Forcing uncompensated major scope creep breaks commercial governance and open relationship guidelines.",
+            "C": "Formal change requests cannot be handled informally or hidden in a daily log file.",
+            "D": "Changes must be assessed during the active stage to prevent late-stage deployment risks or regulatory non-compliance."
+          }
+        },
+        {
+          "question_id": 11,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "defined_roles",
+          "marks": 1,
+          "stem": "The relationship between the banking consortium and ApexSystems is contractually constrained. The contract states that ApexSystems must allow independent quality assurance auditors to review their development processes at any point. Which statement correctly aligns with PRINCE2 assurance rules?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "ApexSystems can refuse access to the independent audit team",
+              "justification": "because internal supplier development workflows are entirely proprietary and exempt from project board oversight."
+            },
+            {
+              "letter": "B",
+              "text": "Project Assurance must operate independently of the project manager's day-to-day actions",
+              "justification": "because the principle of defined roles, responsibilities, and relationships requires that project assurance remains separate from the managing layer to provide objective, unbiased verification to the board."
+            },
+            {
+              "letter": "C",
+              "text": "The project manager should perform all independent assurance audits alone",
+              "justification": "to minimize external communication channels and maximize control over the software engineers."
+            },
+            {
+              "letter": "D",
+              "text": "Project Assurance must assume direct operational command of the developers whenever a contract dispute arises",
+              "justification": "to relieve the project manager of tracking technical delivery lines."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Defined roles) & Chapter 5 (Organization Practice)",
+          "explain_correct": "Project Assurance is a mandatory function representing the board's three interests. It must be independent of the project manager to guarantee unbiased, objective reporting to the board regarding compliance and product quality baselines.",
+          "explain_wrong": {
+            "A": "Suppliers must cooperate with authorized project assurance lines to confirm contractual and technical alignment.",
+            "C": "The project manager cannot audit their own performance, making independent assurance a distinct responsibility.",
+            "D": "Assurance is an advisory and verification function; it never assumes day-to-day operational management control."
+          }
+        },
+        {
+          "question_id": 12,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_a_stage_boundary",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific management task required at the conclusion of Stage 2 (Items 1-3) with its correct PRINCE2 7 management product output (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Aggregating actual expenditure data and schedule performance metrics for the migration phase to show the board what was achieved versus the baseline plan."},
+              {"item_id": 2, "text": "Detailing the schedules, products, resource needs, and tolerances for the upcoming Stage 3 validation phase to secure board authorization."},
+              {"item_id": 3, "text": "Revising the investment return projections and viability pillars with actual Stage 2 costs to confirm that the architecture upgrade remains a worthwhile investment."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "End Stage Report"},
+              {"option_letter": "B", "text": "Stage Plan"},
+              {"option_letter": "C", "text": "Updated Business Case"},
+              {"option_letter": "D", "text": "Exception Plan"},
+              {"option_letter": "E", "text": "Project Brief"},
+              {"option_letter": "F", "text": "Lessons Report"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The End Stage Report is used by the project manager to provide the project board with an evaluation of the stage performance.",
+              "item_2": "A Stage Plan is a detailed plan covering the execution of a single management stage, required for board authorization.",
+              "item_3": "The Business Case must be updated at each stage boundary with actual performance metrics to re-verify continued business justification."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 5,
+      "scenario_title": "AeroSpace Material Science Lab",
+      "scenario_context": "AeroSpace Corp is conducting a highly regulated material science project to formulate an ultra-lightweight titanium alloy matrix for engine turbine blades. The project is currently in Stage 2 (Laboratory Testing and Prototyping). The testing environment is strictly bounded by international aviation quality standards down to the molecular level, leaving no room for quality variances. The prime supplier is the Director of Metallurgy Production. Complex data management protocols apply to protect intellectual property.",
+      "questions": [
+        {
+          "question_id": 13,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "risk",
+          "marks": 1,
+          "stem": "The project manager identifies a major threat: a critical vacuum furnace might overheat, destroying an entire laboratory prototyping sweep. Sourcing a backup cooling valve costs £5,000, which reduces the potential financial impact of a failure from £60,000 down to zero. The probability remains at 15%. The project manager purchases the valve. Which risk response strategy has been applied?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Avoid",
+              "justification": "because modifying the factory infrastructure parameters completely eliminates the presence of the uncertainty from the project environment."
+            },
+            {
+              "letter": "B",
+              "text": "Mitigate (Reduce)",
+              "justification": "because purchasing the backup valve proactively reduces the severe financial impact of the threat if the furnace component materializes, keeping the target variable controlled under the Risk Practice."
+            },
+            {
+              "letter": "C",
+              "text": "Transfer",
+              "justification": "because a commercial legal entity has agreed to assume all structural financial liability for the metallurgical project."
+            },
+            {
+              "letter": "D",
+              "text": "Share",
+              "justification": "because the project manager and supplier are entering into a joint-venture profit-sharing agreement regarding machinery downtime."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 9 (Risk Practice - Threat Responses)",
+          "explain_correct": "A 'Mitigate (Reduce)' response strategy seeks to reduce the probability and/or the impact of an unwanted threat uncertainty. Securing a backup cooling valve directly impacts and lowers the financial *impact* if overheating happens.",
+          "explain_wrong": {
+            "A": "An 'Avoid' strategy requires completely altering the plan or scope to ensure the risk cannot occur (e.g., changing material testing to cold processing entirely).",
+            "C": "A 'Transfer' response requires an insurance policy or an explicit contractual indemnity clause where a third party takes on the liability.",
+            "D": "A 'Share' response is used for opportunities or mutual commercial contract sharing, not unilateral risk reduction spending."
+          }
+        },
+        {
+          "question_id": 14,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "The project manager is preparing the detailed Stage Plan for Stage 3 (Full Coupon Casting). To ensure realistic schedules and effort calculations, the project manager gathers task metrics from the senior laboratory technicians. Which planning technique is appropriate?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Use top-down estimation parameters exclusively",
+              "justification": "to force the metallurgy technicians to accept corporate timeline thresholds blindly without communication."
+            },
+            {
+              "letter": "B",
+              "text": "Apply product-based planning to define products first, then collaborate with the technical leads for estimation and scheduling",
+              "justification": "because PRINCE2 7 plans focus on product outputs, and leveraging supplier and team expertise ensures realistic commitments and clear roles under the defined roles principle."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the Team Manager to author the Stage Plan alone",
+              "justification": "to completely remove the project manager from the scheduling loop during active execution stages."
+            },
+            {
+              "letter": "D",
+              "text": "Omit estimation tracking entirely from the Stage Plan logs",
+              "justification": "since regulated metallurgical prototyping lines are too volatile for standardized schedule baselines."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 8 (Plans Practice - Recommended Approach to Planning)",
+          "explain_correct": "PRINCE2 7 planning is product-focused. The approach requires defining the products first (Product Breakdown Structure, Product Descriptions, Product Flow Diagram) and then collaborating with those who will build them to generate realistic estimates.",
+          "explain_wrong": {
+            "A": "Top-down estimation without technical delivery input results in unrealistic schedules and strains supplier relationships.",
+            "C": "The project manager is responsible for creating Stage Plans; Team Managers produce specific Team Plans for their allocated Work Packages.",
+            "D": "Regulated environments demand disciplined planning and scheduling control to manage cost and time variables effectively."
+          }
+        },
+        {
+          "question_id": 15,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific quality item or document used in the Aerospace Lab project (Items 1-3) with its correct PRINCE2 7 management product definition (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The document detailing the project's macro strategy, standards, techniques, and evaluation responsibilities for ensuring molecular titanium alloys satisfy regulatory compliance baselines."},
+              {"item_id": 2, "text": "The explicit document defining the dimensions, thermal tolerances, quality criteria, and review steps required to accept a specific batch of coupon test blades."},
+              {"item_id": 3, "text": "The active ledger tracking the scheduling of titanium stress testing, identifying the designated reviewers, and recording the final pass/fail technical results."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Quality Management Approach"},
+              {"option_letter": "B", "text": "Product Description"},
+              {"option_letter": "C", "text": "Quality Register"},
+              {"option_letter": "D", "text": "Project Product Description"},
+              {"option_letter": "E", "text": "Issue Register"},
+              {"option_letter": "F", "text": "Daily Log"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The Quality Management Approach defines the project's global policy, standards, and methods for managing and assuring quality across the project lifecycle.",
+              "item_2": "A Product Description is a mandatory management product that defines the purpose, criteria, and tolerances for an individual deliverable component.",
+              "item_3": "The Quality Register is the designated log product used to track and record all planned and executed quality control events, testers, and outcomes."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 6,
+      "scenario_title": "Logistics Hub Automation Node",
+      "scenario_context": "The Logistics Hub Automation project involves upgrading an enterprise sorting facility for a multi-national supply chain firm (the Customer). The mechanical and automated equipment rollout is outsourced via a fixed-price contract to ApexSystems (the Supplier). Stage 3 (Terminal Core Integration) is underway. Strained relationships have emerged between the Customer Executive and the ApexSystems Delivery Director due to disagreements regarding cost overrun liabilities and scope interpretations.",
+      "questions": [
+        {
+          "question_id": 16,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "directing_a_project",
+          "marks": 1,
+          "stem": "During Stage 3, an unexpected sorting machine calibration defect arises that requires an extra £30,000 to remediate, breaching the authorized stage cost tolerance limit. The project manager escalates the exception. Which action should the Customer Executive take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Delegate all financial draw authorizations to ApexSystems' delivery leads",
+              "justification": "to eliminate administrative oversight loops and accelerate factory site troubleshooting."
+            },
+            {
+              "letter": "B",
+              "text": "Review the updated Business Case to re-verify that the project remains a worthwhile investment before authorizing an Exception Plan",
+              "justification": "because under the directing a project process, the project board must ensure continued business justification is preserved before allocating additional capital for exception recovery."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the project manager to hide the budget overrun within the informal Lessons Log",
+              "justification": "to protect corporate steering committee morale from viewing execution performance failures."
+            },
+            {
+              "letter": "D",
+              "text": "Unilaterally take over day-to-day operational control of the assembly technicians",
+              "justification": "because the Executive holds supreme authority to execute technical coding profiles personally."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 6 (Business Case Practice) & Chapter 14 (Directing a Project Process)",
+          "explain_correct": "The Project Board operates at the directing level. When a stage exception occurs, the board is responsible for reviewing options presented in the Exception Report. The Executive must verify that the project remains justified before authorizing an Exception Plan to replace the broken baseline.",
+          "explain_wrong": {
+            "A": "The board cannot outsource funding authorization to the supplier.",
+            "C": "Hiding overruns in a lessons log violates standard data management, transparency, and reporting rules.",
+            "D": "The Executive handles governance and direction; they do not perform hands-on engineering fixes or micromanage technical delivery."
+          }
+        },
+        {
+          "question_id": 17,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "closing_a_project",
+          "marks": 1,
+          "stem": "ApexSystems successfully finishes the structural installation of the sorting equipment, and the Customer Executive wants to stop the project immediately to save administrative overhead. Is it appropriate to skip the closing a project process?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, because project closure is an optional administrative checkpoint that can be bypassed to reduce execution costs",
+              "justification": "allowing the organization to transfer outputs to operations instantly."
+            },
+            {
+              "letter": "B",
+              "text": "No, because the closing a project process is a mandatory phase of the lifecycle designed to confirm formal product handover, verify acceptance criteria satisfaction, evaluate objectives, and cleanly release remaining resources",
+              "justification": "ensuring product liabilities and residual risks are not left unmanaged."
+            },
+            {
+              "letter": "C",
+              "text": "Yes, because the commercial procurement contract automatically serves as a legal replacement for all internal PRINCE2 7 closing management activities",
+              "justification": "negating the need for final project evaluation loops."
+            },
+            {
+              "letter": "D",
+              "text": "No, because closing a project is the only process where team managers are legally permitted to update their technical internal task schedules",
+              "justification": "as scheduling tools are locked during active execution stages."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 12 (Project Lifecycle) & Chapter 19 (Closing a Project Process)",
+          "explain_correct": "The closing a project process is a mandatory phase in PRINCE2 7. It provides a fixed, controlled point to verify that the customer has formally accepted the deliverables, that support mechanisms are active, that lessons are captured, and that resources are released cleanly.",
+          "explain_wrong": {
+            "A": "Bypassing closure leaves outstanding liabilities, unassigned risks, and unconfirmed product metrics unmanaged.",
+            "C": "Commercial contracts handle legal terms between entities but do not satisfy internal governance requirements like archiving data or writing a lessons report.",
+            "D": "Team managers schedule and update plans during active product delivery processes, not at project closure."
+          }
+        },
+        {
+          "question_id": 18,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "seven_principles",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific management choice or rule applied in the Logistics Hub project (Items 1-3) with its correct underlying PRINCE2 7 Principle (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The project board authorizes explicit ranges of variation (e.g., ±£10,000 and ±2 weeks) for Stage 3 execution, instructing the project manager to only escalate matters if a range boundary is forecast to be breached."},
+              {"item_id": 2, "text": "The project manager documents a distinct procedure detailing exactly who must evaluate, impact-assess, and authorize scope adjustments, separating the board's steering authority from the vendor's delivery team."},
+              {"item_id": 3, "text": "The project manager structures all planning around the explicit definition of the cargo sensor gates, layout requirements, and validation criteria, rather than focusing purely on scheduling the engineering tasks."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Manage by exception"},
+              {"option_letter": "B", "text": "Defined roles, responsibilities, and relationships"},
+              {"option_letter": "C", "text": "Focus on products"},
+              {"option_letter": "D", "text": "Manage by stages"},
+              {"option_letter": "E", "text": "Ensure continued business justification"},
+              {"option_letter": "F", "text": "Learn from experience"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The manage by exception principle requires setting tolerance boundaries for project variables to delegate authority efficiently.",
+              "item_2": "The defined roles principle establishes clear accountabilities, reporting lines, and relationship boundaries across the three project interests.",
+              "item_3": "The focus on products principle dictates that projects must be output-oriented, focusing on what needs to be delivered to guarantee quality and avoid waste."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 7,
+      "scenario_title": "BioPharma Therapeutic Drug Rollout",
+      "scenario_context": "BioPharma is executing a high-stakes, fast-tracked project to deliver a new therapeutic drug to market. The project is currently in Stage 3 (Clinical Trials & Regulatory Compliance). The risk environment is highly volatile due to changing healthcare legislation and unpredictable laboratory trial timelines. The project has an authorized cost budget of £2,000,000 with a strict ±£50,000 tolerance. The Senior Supplier role is held by the internal Director of Laboratory Research, and the Senior User is the Vice President of Medical Affairs.",
+      "questions": [
+        {
+          "question_id": 19,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "During Stage 3 execution, a new medical tracking law is passed that mandates immediate upgrades to the drug's packaging labels. The project manager's impact assessment reveals that implementation will cost £65,000, which exceeds the stage cost tolerance boundary. Which action must the project manager take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unilaterally increase the stage budget baseline by £65,000",
+              "justification": "because changes driven by external government legislation grant the project manager automatic financial resetting authority."
+            },
+            {
+              "letter": "B",
+              "text": "Prepare an Exception Report and submit it to the Project Board",
+              "justification": "because when an active management stage is forecast to breach its assigned cost tolerance boundaries, the project manager must formally escalate the exception to the directing level for a directive under the progress control protocols."
+            },
+            {
+              "letter": "C",
+              "text": "Ignore the regulatory update and continue following the original stage timeline baseline",
+              "justification": "because external legislative changes must be deferred exclusively to the final project closing process."
+            },
+            {
+              "letter": "D",
+              "text": "Log the variance as a quality pass within the Quality Register",
+              "justification": "because financial cost overruns carry zero weight in pharmaceutical material testing environments."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 11 (Progress Practice - Exceptions) & Chapter 15 (Controlling a Stage Process - Escalating)",
+          "explain_correct": "Under the manage by exception principle, a forecast breach of stage tolerances is an exception. The project manager cannot authorize the variance and must escalate the situation to the Project Board via an Exception Report.",
+          "explain_wrong": {
+            "A": "A project manager can never unilaterally expand or reset authorized budget parameters; budget adjustments require explicit board or corporate approval.",
+            "C": "Ignoring active regulatory updates exposes the project to illegal non-compliance risks and severe late-stage failure variables.",
+            "D": "The event is a regulatory change impacting cost boundaries; logging it as a quality testing pass in the Quality Register is incorrect and misrepresents project status."
+          }
+        },
+        {
+          "question_id": 20,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_a_stage_boundary",
+          "marks": 1,
+          "stem": "The Project Board reviews the Exception Report regarding the mandatory packaging update and directs the project manager to prepare a recovery option that incorporates the new label designs and sets a new budget baseline. Which plan product should the project manager create?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Create an Exception Plan to present to the Project Board for authorization",
+              "justification": "because an Exception Plan is developed to implement the board's chosen recovery option, and if authorized, it completely replaces the original broken stage plan baseline to re-establish control."
+            },
+            {
+              "letter": "B",
+              "text": "Issue a completely new Project Brief trigger document",
+              "justification": "to restart the pre-project start-up phase from scratch and erase all historical manufacturing records."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the Team Manager to rewrite the macro corporate Business Case",
+              "justification": "to transfer ultimate financial accountability away from the Executive role."
+            },
+            {
+              "letter": "D",
+              "text": "Update the Daily Log alone and continue using the original timeline schedule",
+              "justification": "to shield the laboratory technicians from seeing active baseline variance adjustments."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 8 (Plans Practice - Exception Plans) & Chapter 18 (Managing a Stage Boundary Process)",
+          "explain_correct": "When an exception occurs and the board approves a recovery path, the project manager details this in an Exception Plan. Once authorized by the board, this new plan completely supersedes the broken plan baseline to re-establish control.",
+          "explain_wrong": {
+            "B": "A Project Brief is a pre-initiation product; it is not used to manage active execution exceptions or modify an ongoing stage timeline.",
+            "C": "The Team Manager operates at the delivery layer and is not responsible for or authorized to modify the corporate Business Case; that is a board-level accountability.",
+            "D": "Continuing to manage using a broken, breached baseline while hiding the reality in a daily log violates the core principles of structured project governance."
+          }
+        },
+        {
+          "question_id": 21,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific progress management reporting requirement in the BioPharma project (Items 1-3) with its correct PRINCE2 7 management product (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The periodic document generated by the project manager to provide the board with a regular snapshot of trial progress, tolerance consumption metrics, and stage forecasts."},
+              {"item_id": 2, "text": "The document generated by laboratory team managers to provide the project manager with regular progress metrics regarding work package execution tasks."},
+              {"item_id": 3, "text": "The formal notification generated instantly by the project manager when a clinical trial cost baseline is forecast to breach its authorized boundaries."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Highlight Report"},
+              {"option_letter": "B", "text": "Checkpoint Report"},
+              {"option_letter": "C", "text": "Exception Report"},
+              {"option_letter": "D", "text": "End Stage Report"},
+              {"option_letter": "E", "text": "Daily Log"},
+              {"option_letter": "F", "text": "Product Description"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The Highlight Report is used by the project manager to provide the project board with periodic progress summaries within a stage.",
+              "item_2": "The Checkpoint Report is generated by Team Managers to report the status of work packages to the project manager.",
+              "item_3": "An Exception Report is a formal notification from the project manager to the board when a stage or project tolerance breach is forecast."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 8,
+      "scenario_title": "Urban Core Transit Portfolio Hub",
+      "scenario_context": "The Urban Core Transit project is a massive, complex regional rail hub expansion delivered within a multi-organization public portfolio framework. The project is currently in the 'managing a stage boundary' process at the end of Stage 3 (Utility Diversion), preparing the plan for Stage 4 (Station Construction). public accountability is high, and the project must adhere to strict external environmental sustainability targets and commercial risk frameworks imposed by the parent portfolio structure.",
+      "questions": [
+        {
+          "question_id": 22,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "risk",
+          "marks": 1,
+          "stem": "The Parent Portfolio Director mandates that the project manager must utilize the portfolio's centralized digital risk database and standardized probability scoring matrices instead of configuring an independent risk approach for the transit hub. Is this an appropriate application of framework tailoring?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, because when a project operates within a wider programme or portfolio context, its management approaches must be tailored to align with and reflect the governance frameworks and standards imposed by the parent structure",
+              "justification": "ensuring consistent reporting and risk aggregation across the organization's entire investment pipeline."
+            },
+            {
+              "letter": "B",
+              "text": "Yes, because adhering to portfolio tracking models allows the project manager to completely stop monitoring project-level cost tolerances",
+              "justification": "transferring all financial execution liabilities to external portfolio office clerks."
+            },
+            {
+              "letter": "C",
+              "text": "No, because PRINCE2 7 requires that every project manager must operate completely independently of corporate, programme, or portfolio management rules",
+              "justification": "as external governance frameworks are legally banned from altering project logs."
+            },
+            {
+              "letter": "D",
+              "text": "No, because risk tracking tools can only be modified by the Team Manager during active factory work package execution blocks",
+              "justification": "meaning the project board and portfolio directors have no say in risk policies."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 4 (Organizational Context - Programmes and Portfolios) & Chapter 9 (Risk Practice - Tailoring)",
+          "explain_correct": "PRINCE2 7 explicitly addresses the organizational context. When a project is part of a portfolio, its management approaches (such as the Risk Management Approach) must integrate with the parent organization's systems and standards to allow for effective portfolio-level monitoring and governance.",
+          "explain_wrong": {
+            "B": "Adhering to portfolio risk standards does not eliminate or transfer the project manager's responsibility to manage and track project-level cost tolerances.",
+            "C": "PRINCE2 7 does not demand absolute isolation; it is designed to flex and align perfectly with corporate or programme governance frameworks.",
+            "D": "Configuring risk management parameters is a project-wide governance responsibility defined in the Risk Management Approach, not a tactical task delegated to a Team Manager."
+          }
+        },
+        {
+          "question_id": 23,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "During the 'managing a stage boundary' process for Stage 3, the project manager creates the detailed Stage Plan for Stage 4, but leaves the plans for Stage 5 and Stage 6 at a high-level macro overview within the overall Project Plan. The civil engineering director demands that all remaining stages be planned down to daily individual tasks immediately. Which statement reflects correct PRINCE2 planning concepts?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The project manager should plan all project tasks down to the hour on day one to prevent any execution shifts",
+              "justification": "demonstrating absolute management precision across commercial consortia."
+            },
+            {
+              "letter": "B",
+              "text": "Planning in PRINCE2 7 reflects the planning horizon; it is appropriate to plan the upcoming immediate stage in detail while keeping later stages at a higher level until more data is available",
+              "justification": "preventing wasted effort creating unrealistic detailed schedules for distant phases and aligning with rolling-wave concepts under the Plans Practice."
+            },
+            {
+              "letter": "C",
+              "text": "The managing a stage boundary process requires that all future stage plans must be fully finalized and baselined simultaneously",
+              "justification": "as incremental or rolling-wave planning is forbidden under the framework rules."
+            },
+            {
+              "letter": "D",
+              "text": "The length of the project planning horizon must be determined exclusively by the delivering level Team Manager",
+              "justification": "meaning the project manager has no say in scheduling boundaries during active construction sweeps."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 8 (Plans Practice - Planning Horizon) & Chapter 18 (Managing a Stage Boundary Process)",
+          "explain_correct": "PRINCE2 7 recognizes the concept of a planning horizon. Detailed planning is only realistic for a limited window into the future. Slicing the project into stages allows the project manager to plan the immediate upcoming stage in detail (the Stage Plan) while maintaining the macro view for later phases in the Project Plan.",
+          "explain_wrong": {
+            "A": "Attempting to plan complex, long-term infrastructure tasks down to the hour on day one results in fragile, inaccurate plans that collapse when the first variation occurs.",
+            "C": "PRINCE2 7 explicitly enforces stage-by-stage control and supports rolling-wave planning methods; future stages are only detailed as their boundaries approach.",
+            "D": "The project manager is responsible for creating and maintaining project and stage plans, aligned with the board's directed boundaries, not the Team Manager."
+          }
+        },
+        {
+          "question_id": 24,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_a_stage_boundary",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific activity performed during the 'managing a stage boundary' process in the Transit project (Items 1-3) with its correct process description statement (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Updating the project's master schedule baseline with actual timelines achieved during utility diversion to map out structural modifications for remaining tracks."},
+              {"item_id": 2, "text": "Revising the investment return projections and viability statements with actual Stage 3 cost statistics to verify that the project represents value for money before funding construction."},
+              {"item_id": 3, "text": "Compiling actual performance statistics, tolerance utilization metrics, and asset handover statuses for the utility diversion stage to present to the board."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Update the project plan"},
+              {"option_letter": "B", "text": "Update the business case"},
+              {"option_letter": "C", "text": "Prepare an end stage report"},
+              {"option_letter": "D", "text": "Prepare an exception plan"},
+              {"option_letter": "E", "text": "Authorize a stage plan"},
+              {"option_letter": "F", "text": "Minimize document overhead"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Updating the project plan is required during a stage boundary to show the cumulative performance against the original baseline.",
+              "item_2": "Updating the business case ensures the project's viability is re-verified using active, actual cost data before major capital is committed.",
+              "item_3": "Preparing an end stage report is the specific activity where the project manager documents the results of the concluding stage for board evaluation."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

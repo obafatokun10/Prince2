@@ -1,0 +1,803 @@
+{
+  "batch_meta": {
+    "batch_sequence": 10,
+    "questions_included": "148 to 168",
+    "running_total": 168
+  },
+  "scenarios": [
+    {
+      "scenario_id": 50,
+      "scenario_title": "Urban Transit Node Automation",
+      "scenario_context": "The Urban Transit project involves upgrading an enterprise sorting facility for a regional supply chain operator. The mechanical rollout is outsourced to a contract firm, ApexSystems. Stage 3 (Terminal Integration) is underway. Relationships are strained due to cost overrun debates.",
+      "questions": [
+        {
+          "question_id": 148,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "directing_a_project",
+          "marks": 1,
+          "stem": "During Stage 3, a sorting machine defect arises that requires an extra £35,000 to remediate, exceeding the stage cost tolerance. The project manager escalates the exception. Which action should the Customer Executive take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Delegate financial authorization to the supplier",
+              "justification": "to eliminate administrative oversight and accelerate troubleshooting."
+            },
+            {
+              "letter": "B",
+              "text": "Review the Business Case to confirm continued justification before authorizing an Exception Plan",
+              "justification": "because under the directing a project process, the board must ensure continued business justification is preserved before allocating additional capital for exception recovery."
+            },
+            {
+              "letter": "C",
+              "text": "Hide the overrun within the informal Lessons Log",
+              "justification": "to protect steering committee morale from viewing performance failures."
+            },
+            {
+              "letter": "D",
+              "text": "Take over day-to-day operational control of the technicians",
+              "justification": "because the Executive holds supreme authority to perform technical fixes personally."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 6 (Business Case Practice) & Chapter 14 (Directing a Project Process)",
+          "explain_correct": "The Project Board operates at the directing level. When a stage exception occurs, the board reviews the options. The Executive must verify that the project remains justified before authorizing an Exception Plan.",
+          "explain_wrong": {
+            "A": "The board cannot outsource funding authorization to the supplier.",
+            "C": "Hiding overruns violates data management and transparency rules.",
+            "D": "The Executive handles governance; they do not micromanage technical delivery."
+          }
+        },
+        {
+          "question_id": 149,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "closing_a_project",
+          "marks": 1,
+          "stem": "The equipment installation is complete. The Executive wants to stop the project immediately to save costs. Is skipping the 'closing a project' process appropriate?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, because closure is an optional administrative check",
+              "justification": "allowing transfer to operations to happen instantly."
+            },
+            {
+              "letter": "B",
+              "text": "No, because the closing a project process is mandatory to verify product handover, evaluate objectives, and release resources",
+              "justification": "ensuring product liabilities and residual risks are not left unmanaged."
+            },
+            {
+              "letter": "C",
+              "text": "Yes, because the contract replaces PRINCE2 closing activities",
+              "justification": "negating the need for final evaluation loops."
+            },
+            {
+              "letter": "D",
+              "text": "No, because closing is where team managers update task schedules",
+              "justification": "as scheduling tools are locked during active execution."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 12 (Project Lifecycle) & Chapter 19 (Closing a Project Process)",
+          "explain_correct": "The closing a project process is mandatory. It provides a fixed, controlled point to verify acceptance, capture lessons, and release resources.",
+          "explain_wrong": {
+            "A": "Bypassing closure leaves liabilities and risks unmanaged.",
+            "C": "Commercial contracts do not satisfy internal governance requirements like archiving data or writing lessons reports.",
+            "D": "Team managers update plans during active stages, not at closure."
+          }
+        },
+        {
+          "question_id": 150,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "seven_principles",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the management rule in the Logistics project (Items 1-3) with its correct PRINCE2 7 Principle (Options A-F).",
+            "items": [
+              {"item_id": 1, "text": "The board authorizes ranges of variation (e.g., ±£10,000) for Stage 3 execution, instructing the project manager to only escalate if a boundary is breached."},
+              {"item_id": 2, "text": "The project manager documents a procedure detailing who must authorize scope adjustments, separating board steering from vendor delivery."},
+              {"item_id": 3, "text": "The project manager structures planning around defining hardware sensor gates and validation criteria, rather than focusing purely on engineering tasks."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Manage by exception"},
+              {"option_letter": "B", "text": "Defined roles and responsibilities"},
+              {"option_letter": "C", "text": "Focus on products"},
+              {"option_letter": "D", "text": "Manage by stages"},
+              {"option_letter": "E", "text": "Business justification"},
+              {"option_letter": "F", "text": "Learn from experience"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The manage by exception principle requires setting tolerance boundaries for project variables to delegate authority efficiently.",
+              "item_2": "The defined roles principle establishes clear accountabilities and relationship boundaries.",
+              "item_3": "The focus on products principle dictates output-oriented planning."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 51,
+      "scenario_title": "BioPharma Lab Rollout",
+      "scenario_context": "BioPharma is executing Stage 3 (Clinical Trials). The environment is volatile due to healthcare legislation. The project has a budget of £2M with a £50k tolerance. The Senior Supplier is the Director of Research.",
+      "questions": [
+        {
+          "question_id": 151,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "New law forces packaging label updates. Implementation costs £65,000, breaching stage cost tolerance. Action?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unilaterally increase the budget",
+              "justification": "because legislation grants automatic financial resetting."
+            },
+            {
+              "letter": "B",
+              "text": "Prepare an Exception Report and submit it to the Board",
+              "justification": "because a forecast breach of tolerances requires escalation for a board directive."
+            },
+            {
+              "letter": "C",
+              "text": "Ignore the update",
+              "justification": "because regulatory changes are deferred to closure."
+            },
+            {
+              "letter": "D",
+              "text": "Log as a quality pass",
+              "justification": "because cost overruns do not matter."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 11 (Progress Practice)",
+          "explain_correct": "Exception escalates to the board when tolerances are breached.",
+          "explain_wrong": {
+            "A": "Managers cannot reset budgets.",
+            "C": "Ignoring legislation is non-compliance.",
+            "D": "Costs must be managed."
+          }
+        },
+        {
+          "question_id": 152,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_a_stage_boundary",
+          "marks": 1,
+          "stem": "Board reviews Exception Report and directs recovery. Product required?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Exception Plan",
+              "justification": "because it replaces the broken baseline plan."
+            },
+            {
+              "letter": "B",
+              "text": "Project Brief",
+              "justification": "because it restarts the project."
+            },
+            {
+              "letter": "C",
+              "text": "Business Case rewrite",
+              "justification": "because Team Managers own it."
+            },
+            {
+              "letter": "D",
+              "text": "Daily Log update",
+              "justification": "to shield technicians."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 8 (Plans Practice)",
+          "explain_correct": "Exception Plan details the recovery strategy.",
+          "explain_wrong": {
+            "B": "Brief is for pre-initiation.",
+            "C": "Business Case is board-level.",
+            "D": "Daily logs don't manage baselines."
+          }
+        },
+        {
+          "question_id": 153,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match progress management requirement with product.",
+            "items": [
+              {"item_id": 1, "text": "Periodic board snapshot of progress."},
+              {"item_id": 2, "text": "Team-level work package status report."},
+              {"item_id": 3, "text": "Formal notification of tolerance breach."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Highlight Report"},
+              {"option_letter": "B", "text": "Checkpoint Report"},
+              {"option_letter": "C", "text": "Exception Report"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Highlight Reports go to the board.",
+              "item_2": "Checkpoints come from teams.",
+              "item_3": "Exception Reports notify of breaches."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 52,
+      "scenario_title": "Urban Transit Expansion",
+      "scenario_context": "The Urban Transit project is a regional rail expansion. Public accountability is high, and the project must adhere to external sustainability targets.",
+      "questions": [
+        {
+          "question_id": 154,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "risk",
+          "marks": 1,
+          "stem": "Portfolio Director mandates use of centralized risk database instead of independent hub tracking. Appropriate tailoring?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, portfolio projects must align with parent frameworks",
+              "justification": "ensuring consistent risk aggregation."
+            },
+            {
+              "letter": "B",
+              "text": "Yes, it stops cost tolerance tracking",
+              "justification": "transferring all liabilities."
+            },
+            {
+              "letter": "C",
+              "text": "No, projects must be independent",
+              "justification": "external frameworks are banned."
+            },
+            {
+              "letter": "D",
+              "text": "No, risk tools are for delivery teams only",
+              "justification": "board has no say."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 4",
+          "explain_correct": "Alignment with parent frameworks is essential for portfolio governance.",
+          "explain_wrong": {
+            "B": "Aligning does not remove project manager responsibility.",
+            "C": "Projects are designed to integrate.",
+            "D": "Risk management is a project-wide governance task."
+          }
+        },
+        {
+          "question_id": 155,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "Project manager plans the upcoming stage in detail but keeps later stages at high level. Demands to detail everything now. Correct?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, plan everything on day one",
+              "justification": "demonstrating absolute precision."
+            },
+            {
+              "letter": "B",
+              "text": "Yes, rolling-wave planning is correct",
+              "justification": "preventing wasted effort."
+            },
+            {
+              "letter": "C",
+              "text": "No, all plans must be final",
+              "justification": "incremental is banned."
+            },
+            {
+              "letter": "D",
+              "text": "No, Team Manager decides horizons",
+              "justification": "PM has no say."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 8",
+          "explain_correct": "Rolling-wave planning optimizes effort.",
+          "explain_wrong": {
+            "A": "Rigidity causes fragility.",
+            "C": "PRINCE2 supports incremental control.",
+            "D": "PMs define stage plans."
+          }
+        },
+        {
+          "question_id": 156,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_a_stage_boundary",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match stage boundary activity with output.",
+            "items": [
+              {"item_id": 1, "text": "Updating schedule with actual timelines."},
+              {"item_id": 2, "text": "Revising business viability projections."},
+              {"item_id": 3, "text": "Compiling actual performance stats."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Update project plan"},
+              {"option_letter": "B", "text": "Update business case"},
+              {"option_letter": "C", "text": "End stage report"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Updates plan baseline.",
+              "item_2": "Updates business case for viability.",
+              "item_3": "End stage report evaluates stage performance."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 53,
+      "scenario_title": "OmniChannel Fulfillment Node",
+      "scenario_context": "The project is executing Stage 3 (Fulfillment Automation Node Sourcing). The stage is bound by an authorized cost tolerance of ±£30,000.",
+      "questions": [
+        {
+          "question_id": 157,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 1,
+          "stem": "Software configuration error requires £35,000 to fix, breaching tolerance. Action?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unilaterally expand budget",
+              "justification": "because manager has authority."
+            },
+            {
+              "letter": "B",
+              "text": "Exception Report to Board",
+              "justification": "because breach requires escalation."
+            },
+            {
+              "letter": "C",
+              "text": "Record in Quality Register",
+              "justification": "because logs satisfy requirements."
+            },
+            {
+              "letter": "D",
+              "text": "Premature shutdown",
+              "justification": "because overruns invalidate projects."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 10",
+          "explain_correct": "Tolerances define the limit of delegated authority.",
+          "explain_wrong": {
+            "A": "Managers cannot break baselines.",
+            "C": "Quality registers are not for budget issues.",
+            "D": "Exception escalation is the first step."
+          }
+        },
+        {
+          "question_id": 158,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "controlling_a_stage",
+          "marks": 1,
+          "stem": "Evaluating weekly progress data submitted by vendor to confirm alignment with Stage Plan. Activity?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Review work package status",
+              "justification": "verifying status against plan."
+            },
+            {
+              "letter": "B",
+              "text": "Strategic authorization",
+              "justification": "done in startup phase."
+            },
+            {
+              "letter": "C",
+              "text": "Update viability parameters",
+              "justification": "done in closure."
+            },
+            {
+              "letter": "D",
+              "text": "Audit by PMO",
+              "justification": "removes PM accountabilities."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 15",
+          "explain_correct": "Reviewing status is essential for control.",
+          "explain_wrong": {
+            "B": "Startup is pre-project.",
+            "C": "Closure is for project end.",
+            "D": "PMs retain accountability."
+          }
+        },
+        {
+          "question_id": 159,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "risk",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match risk scenario with response.",
+            "items": [
+              {"item_id": 1, "text": "Insure conveyor collapse liability."},
+              {"item_id": 2, "text": "Remove experimental module layout."},
+              {"item_id": 3, "text": "Install extra cooling nozzles."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Transfer"},
+              {"option_letter": "B", "text": "Avoid"},
+              {"option_letter": "C", "text": "Mitigate (Reduce)"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Insurance shifts financial liability.",
+              "item_2": "Removing the risk source avoids the threat.",
+              "item_3": "Cooling lowers probability/impact."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 54,
+      "scenario_title": "Smart Campus Infrastructure",
+      "scenario_context": "The project is delivering a university smart-grid. The project uses Agile sprints. Senior User is the Registry Manager.",
+      "questions": [
+        {
+          "question_id": 160,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 1,
+          "stem": "Documenting data criteria before programming the login module. Product?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Business Case",
+              "justification": "defines code bounds."
+            },
+            {
+              "letter": "B",
+              "text": "Product Description",
+              "justification": "defines quality criteria for deliverables."
+            },
+            {
+              "letter": "C",
+              "text": "Daily Log",
+              "justification": "for casual chat."
+            },
+            {
+              "letter": "D",
+              "text": "Benefits Ledger",
+              "justification": "for satisfaction audits."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 7",
+          "explain_correct": "Product Descriptions define output quality.",
+          "explain_wrong": {
+            "A": "Business case justifies investment.",
+            "C": "Log is not for quality specs.",
+            "D": "Benefits log tracks outcomes."
+          }
+        },
+        {
+          "question_id": 161,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_product_delivery",
+          "marks": 1,
+          "stem": "Compilation error delays work package. Action?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Adjust baseline unilaterally",
+              "justification": "agile authority."
+            },
+            {
+              "letter": "B",
+              "text": "Raise issue to project manager",
+              "justification": "escalate variance."
+            },
+            {
+              "letter": "C",
+              "text": "Escalate to users",
+              "justification": "user owns repairs."
+            },
+            {
+              "letter": "D",
+              "text": "Log in closure report",
+              "justification": "evaluation at end."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 16",
+          "explain_correct": "Team Managers escalate to Project Managers.",
+          "explain_wrong": {
+            "A": "Agile doesn't override governance.",
+            "C": "Users aren't delivery supervisors.",
+            "D": "Tracking happens during stages."
+          }
+        },
+        {
+          "question_id": 162,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match situation with issue category.",
+            "items": [
+              {"item_id": 1, "text": "Gateway server crash."},
+              {"item_id": 2, "text": "Proposal for new print module."},
+              {"item_id": 3, "text": "Compliance failure."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Problem or concern"},
+              {"option_letter": "B", "text": "Request for change"},
+              {"option_letter": "C", "text": "Off-specification"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Server crash is an event/problem.",
+              "item_2": "New module is a change.",
+              "item_3": "Failure to comply is off-specification."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 55,
+      "scenario_title": "Corporate Risk Vault",
+      "scenario_context": "FinTech banking ledger project, Stage 3 (Hardening). Strained relationships between bank and vendor.",
+      "questions": [
+        {
+          "question_id": 163,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "continued_justification",
+          "marks": 1,
+          "stem": "Market shift reduces project benefits. Action?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cancel project",
+              "justification": "benefits reduced."
+            },
+            {
+              "letter": "B",
+              "text": "Update Business Case",
+              "justification": "verify continued justification."
+            },
+            {
+              "letter": "C",
+              "text": "Delete research data",
+              "justification": "hide reality."
+            },
+            {
+              "letter": "D",
+              "text": "Delegate to admin staff",
+              "justification": "autonomous changes."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2",
+          "explain_correct": "Business case review is required for continued viability.",
+          "explain_wrong": {
+            "A": "Cancellation isn't automatic.",
+            "C": "Hiding data is unethical.",
+            "D": "Accountability stays with Executive."
+          }
+        },
+        {
+          "question_id": 164,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "people",
+          "product_focus": "change_management",
+          "marks": 1,
+          "stem": "User resistance to new interface. Action?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Workshops in Change Management Approach",
+              "justification": "manage human transition."
+            },
+            {
+              "letter": "B",
+              "text": "Communication logs",
+              "justification": "hide friction."
+            },
+            {
+              "letter": "C",
+              "text": "Add criteria to Product Description",
+              "justification": "alter code."
+            },
+            {
+              "letter": "D",
+              "text": "Daily Log entries",
+              "justification": "keep confidential."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 3",
+          "explain_correct": "Change management handles user alignment.",
+          "explain_wrong": {
+            "B": "Communication isn't training.",
+            "C": "Product descriptions don't track moods.",
+            "D": "Daily logs don't plan interventions."
+          }
+        },
+        {
+          "question_id": 165,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "organization",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match governance role to interest.",
+            "items": [
+              {"item_id": 1, "text": "Value for money accountability."},
+              {"item_id": 2, "text": "Operational reliability verification."},
+              {"item_id": 3, "text": "Technical compliance assurance."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Executive"},
+              {"option_letter": "B", "text": "Senior User"},
+              {"option_letter": "C", "text": "Senior Supplier"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Executive owns the case.",
+              "item_2": "User owns the benefits/usage.",
+              "item_3": "Supplier owns the technical delivery."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 56,
+      "scenario_title": "AgriTech Satellites",
+      "scenario_context": "Project planning for Stage 4 sensors. High accuracy required.",
+      "questions": [
+        {
+          "question_id": 166,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "Plan everything now vs. detailed planning horizon. Which?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Detail everything day one",
+              "justification": "prevents slippage."
+            },
+            {
+              "letter": "B",
+              "text": "Plan immediate stage, high level later",
+              "justification": "rolling-wave planning."
+            },
+            {
+              "letter": "C",
+              "text": "Finalize all plans",
+              "justification": "incremental banned."
+            },
+            {
+              "letter": "D",
+              "text": "Team Manager decides",
+              "justification": "PM irrelevant."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 8",
+          "explain_correct": "Rolling-wave avoids fragile, unrealistic plans.",
+          "explain_wrong": {
+            "A": "Detailed long-range plans are inaccurate.",
+            "C": "PRINCE2 expects incremental detail.",
+            "D": "PM owns planning baselines."
+          }
+        },
+        {
+          "question_id": 167,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "managing_a_stage_boundary",
+          "marks": 1,
+          "stem": "Why create End Stage Report?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Notify shutdown",
+              "justification": "end project."
+            },
+            {
+              "letter": "B",
+              "text": "Evaluate performance against baseline",
+              "justification": "enable next stage decision."
+            },
+            {
+              "letter": "C",
+              "text": "Document source code",
+              "justification": "legal binding."
+            },
+            {
+              "letter": "D",
+              "text": "Change criteria",
+              "justification": "post-project."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 18",
+          "explain_correct": "End Stage Reports enable stage-by-stage control.",
+          "explain_wrong": {
+            "A": "It's for current stage, not total shutdown.",
+            "C": "Reports are management products, not code docs.",
+            "D": "Acceptance changes are board decisions."
+          }
+        },
+        {
+          "question_id": 168,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match variance parameter to definition.",
+            "items": [
+              {"item_id": 1, "text": "Range of timeline completion variation."},
+              {"item_id": 2, "text": "Range of cost allocation variation."},
+              {"item_id": 3, "text": "Range of product delivery variation."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Time tolerance"},
+              {"option_letter": "B", "text": "Cost tolerance"},
+              {"option_letter": "C", "text": "Scope tolerance"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Time relates to schedule dates.",
+              "item_2": "Cost relates to budgets.",
+              "item_3": "Scope relates to deliverables."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "batch_meta": {
+    "batch_sequence": 4,
+    "questions_included": "37 to 51",
+    "running_total": 51
+  },
+  "scenarios": [
+    {
+      "scenario_id": 13,
+      "scenario_title": "NowByou Advocacy Campaign Phase III",
+      "scenario_context": "NowByou is executing Phase III of its human rights advocacy campaign, establishing localized legal support hubs within four urban centers. The project is in Stage 3 (Operational Hub Launch). The Project Board consists of the Executive (Director of Campaigns), the Senior User (Regional Hub Managers), and the Senior Supplier (Legal Services Consortium Liaison). Project management maturity is low. A core sustainability target dictates that all hubs must minimize local energy consumption by 25% using cloud-only technical platforms. Strained relationships have emerged between the central project team and local municipal licensing authorities regarding operating permits.",
+      "questions": [
+        {
+          "question_id": 37,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "risk",
+          "marks": 1,
+          "stem": "During Stage 3, the project manager identifies a threat: local municipal licensing authorities may delay issuing operating permits by 3 weeks due to paperwork backlogs, which would breach the stage time tolerance. Sourcing a specialized local legal consultant costs £1,500, which will fast-track the applications and eliminate the delay completely. Sourcing the consultant does not threaten cost tolerances. Which risk response strategy is applied by hiring the consultant?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Apply an Avoid threat response strategy",
+              "justification": "because hiring the local consultant changes the execution path to remove the municipal delay threat entirely from the project schedule, neutralizing the uncertainty."
+            },
+            {
+              "letter": "B",
+              "text": "Apply a Mitigate (Reduce) threat response strategy",
+              "justification": "because spending £1,500 minimizes the severity of the operational impact while allowing the risk threat to remain active in the system."
+            },
+            {
+              "letter": "C",
+              "text": "Apply a Transfer threat response strategy",
+              "justification": "because a commercial insurance policy will assume all civil financial liabilities for the regional training hubs."
+            },
+            {
+              "letter": "D",
+              "text": "Apply an Accept threat response strategy",
+              "justification": "because the project board has chosen to take no proactive action and will absorb any timeline overruns locally."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 9 (Risk Practice - Threat Responses)",
+          "explain_correct": "An Avoid response strategy requires changing something in the project plan or scope to completely eliminate the probability or impact of a threat. By hiring the consultant to clear the backlog, the threat of municipal delay is entirely removed from the plan.",
+          "explain_wrong": {
+            "B": "Mitigation reduces probability or impact but leaves the threat active; here, the delay threat is completely bypassed.",
+            "C": "Transfer requires a third party to take on the financial liability of the risk (e.g., insurance or indemnities), which is not what the consultant is doing.",
+            "D": "Acceptance means doing nothing and taking the hit if the risk materializes, whereas this is a proactive intervention."
+          }
+        },
+        {
+          "question_id": 38,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "people",
+          "product_focus": "change_management_approach",
+          "marks": 1,
+          "stem": "The Director of Campaigns wants to ensure that the newly appointed regional volunteer teams are equipped to handle the emotional and cultural challenges of public advocacy, minimizing staff turnover during the launch phase. How should the project manager structure this requirement?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Incorporate the volunteer training and counseling interventions within the Change Management Approach",
+              "justification": "because the change management approach defines the structured activities, training plans, and interventions required to support people through organizational and behavioral transitions, directly reinforcing the People element."
+            },
+            {
+              "letter": "B",
+              "text": "Document the volunteer communication frequencies inside the Communication Management Approach",
+              "justification": "because routing weekly status templates protects the project board from seeing active staff turnover metrics."
+            },
+            {
+              "letter": "C",
+              "text": "Record the emotional support milestones inside individual Configuration Item Records",
+              "justification": "to bind volunteer behavioral habits directly to the technical version numbers of the database software."
+            },
+            {
+              "letter": "D",
+              "text": "List the training parameters as product quality criteria inside the Project Product Description",
+              "justification": "to freeze the final customer acceptance metrics before launching active stage execution sweeps."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 3 (People Element) & Appendix A (Change Management Approach)",
+          "explain_correct": "The change management approach deals with the human and behavioral side of change. Training volunteers to adapt to cultural challenges and preventing turnover represents an organizational transition intervention that belongs in this product.",
+          "explain_wrong": {
+            "B": "The communication management approach defines information routing rules and channels, not the psychological or skills training interventions required for human transition.",
+            "C": "Configuration records manage asset version metadata and components, not human behavioral support or volunteer coordination.",
+            "D": "The Project Product Description defines high-level output expectations of the final deliverable, not internal operational team alignment activities."
+          }
+        },
+        {
+          "question_id": 39,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "initiating_a_project",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific initiation task performed during the NowByou project setup (Items 1-3) with its correct PRINCE2 7 management product output (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The project manager documents the precise rules, reporting paths, authority limits, and escalation triggers for identifying and controlling modifications to the campaign's digital scope baseline."},
+              {"item_id": 2, "text": "The project manager documents how, when, and by whom the mandated 25% cloud energy efficiency target will be mathematically tracked and verified during stage execution."},
+              {"item_id": 3, "text": "The project manager consolidates all localized deployment plans, organizational roles, and control mechanisms into a single master baseline file for board approval."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Issue Control Approach (or Change Control Approach)"},
+              {"option_letter": "B", "text": "Sustainability Management Approach (or embedded PID section)"},
+              {"option_letter": "C", "text": "Project Initiation Documentation (PID)"},
+              {"option_letter": "D", "text": "Project Brief"},
+              {"option_letter": "E", "text": "Quality Register"},
+              {"option_letter": "F", "text": "Risk Management Approach"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The issue control approach (or change control approach) defines the mechanisms for identifying, assessing, and managing modifications to project baselines. Ref 10.4.2",
+              "item_2": "The sustainability approach sets the framework for measuring and controlling environmental performance targets across active stages. Ref 4.3.4",
+              "item_3": "The PID aggregates all baseline planning, organizational, and control products to provide a single source of truth for project governance. Ref 14.4.6"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 14,
+      "scenario_title": "AeroSpace Material Science Lab",
+      "scenario_context": "AeroSpace Corp is conducting a highly regulated material science project to formulate an ultra-lightweight titanium alloy matrix for engine turbine blades. The project is currently in Stage 2 (Laboratory Testing and Prototyping). The testing environment is strictly bounded by international aviation quality standards down to the molecular level, leaving no room for quality variances. The Project Board consists of the Executive (VP of R&D), the Senior User (Chief Aerospace Engineer), and the Senior Supplier (Director of Metallurgy Production).",
+      "questions": [
+        {
+          "question_id": 40,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 1,
+          "stem": "During a laboratory stress test, an alloy coupon batch fractures under a thermal load that matches the baseline specification requirement. The material has failed to meet its authorized quality design criteria. Which action must the project manager take first to log this deviation?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Log the failure in the Issue Register as an Off-Specification",
+              "justification": "because under the PRINCE2 7 Issue Practice, any product deliverable that fails to satisfy its authorized quality criteria or product description baseline must be formally captured as an off-specification to initiate impact analysis."
+            },
+            {
+              "letter": "B",
+              "text": "Record the structural fracture in the Daily Log as an informal personal reminder",
+              "justification": "allowing the lab technicians to resolve the core structural engineering defect over internal chat programs without tracking."
+            },
+            {
+              "letter": "C",
+              "text": "Add the load metrics directly into the macro-level Risk Management Approach text",
+              "justification": "to alter the mathematical probability formulas used to score broad project uncertainties."
+            },
+            {
+              "letter": "D",
+              "text": "Document the fracture data inside the Lessons Log as a useful metallurgy tip",
+              "justification": "to assist alternative corporate ventures in copying the flawed material layout after project closure."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 10 (Issue Practice - Off-Specifications) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "An Off-Specification is a specific issue category used for any product that fails to meet its authorized criteria. It must be logged in the Issue Register to undergo formal impact assessment and board concession processing.",
+          "explain_wrong": {
+            "B": "A material failure in a regulated aerospace project cannot be treated as an informal, unmanaged note; it demands formal issue tracking.",
+            "C": "The Risk Management Approach contains procedural guidelines, not live data logs for physical product defects.",
+            "D": "The lessons log captures project management process insights, not active material structural defects requiring engineering resolution."
+          }
+        },
+        {
+          "question_id": 41,
+          "format_type": "processes",
+          "process_focus": "controlling_a_stage",
+          "marks": 1,
+          "stem": "The laboratory Team Manager delivers a batch of titanium test coupons along with a completed quality check sheet confirming all standard criteria are met. The project manager verifies the records, confirms compliance, and signs off on the work package status. Which statement correctly describes this process activity?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "This represents the 'receive completed work package' activity within the controlling a stage process",
+              "justification": "because the project manager is responsible for checking quality records and confirming that the deliverables satisfy all specified definitions before work package closure."
+            },
+            {
+              "letter": "B",
+              "text": "This represents a strategic directive within the starting up a project process",
+              "justification": "because all software and material components must be formally received and validated before funding initiation."
+            },
+            {
+              "letter": "C",
+              "text": "This represents a product modification authorized exclusively within the closing a project process",
+              "justification": "because individual management stages lack the authority to authorize incremental component completions."
+            },
+            {
+              "letter": "D",
+              "text": "This represents an independent compliance check executed by the corporate PMO director",
+              "justification": "to remove day-to-day work package tracking accountabilities from the project manager role."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 15 (Controlling a Stage Process - Receiving Completed Work Packages)",
+          "explain_correct": "In the controlling a stage process, receiving completed work packages requires the project manager to review quality logs and satisfy themselves that products conform to descriptions before formal sign-off.",
+          "explain_wrong": {
+            "B": "No work packages are executed or received during the pre-project start-up process.",
+            "C": "Products are incrementally delivered and accepted throughout active stages via the stage control loop, not held entirely until project closure.",
+            "D": "The project manager is responsible for receiving work packages, not an external PMO director."
+          }
+        },
+        {
+          "question_id": 42,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "risk",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific metallurgical risk response action taken in the Aerospace Lab project (Items 1-3) with its correct PRINCE2 7 Threat Response classification (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The project manager pays an external commercial testing facility a fixed fee to perform the dangerous high-pressure coupon stamps, transferring all structural liability for material explosions to them via contract."},
+              {"item_id": 2, "text": "The project manager changes the alloy design blueprint to completely eliminate the use of a volatile chemical component, removing that specific chemical explosion risk context entirely from the project environment."},
+              {"item_id": 3, "text": "The project manager installs automated water cooling sprayers around the laboratory kiln to lower the mathematical probability and reduce the heat impact of a thermal overflow threat."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Transfer"},
+              {"option_letter": "B", "text": "Avoid"},
+              {"option_letter": "C", "text": "Mitigate (Reduce)"},
+              {"option_letter": "D", "text": "Accept"},
+              {"option_letter": "E", "text": "Share"},
+              {"option_letter": "F", "text": "Prepare contingent mitigation"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "A Transfer response shifts the financial liability or operational risk to another party, often via contracts or insurance. Ref 9.4.3",
+              "item_2": "An Avoid response completely removes the threat by changing the project plan or baseline scope to eliminate the risk context. Ref 9.4.3",
+              "item_3": "A Mitigate (Reduce) response proactively alters the system to reduce the probability or impact of an active threat. Ref 9.4.3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 15,
+      "scenario_title": "FinTech Micro-Lending Platform",
+      "scenario_context": "FinTech Mobile is delivering a cloud-based Micro-Lending Platform designed for rural agricultural sectors. The project relies on an iterative-incremental (Agile) delivery framework under a strict PRINCE2 7 governance model. The project is currently in Stage 3 (Core Credit Scoring Engine Delivery). Feature developments occur within 2-week time-boxed sprints. The Senior User role is held by the Micro-Finance Operations Director, and the Senior Supplier is the Internal Software Development Director. A core corporate sustainability target requires that the platform code optimizes server processing efficiency to minimize carbon emissions by 20%.",
+      "questions": [
+        {
+          "question_id": 43,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "issue",
+          "marks": 1,
+          "stem": "During a sprint deployment within Stage 3, a software developer discovers a certain defect: the data synchronization script locks up whenever multiple farmers input records simultaneously. This is an active problem causing immediate disruption to development. How should the project manager log this item?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Log the defect in the Issue Register as a problem or concern",
+              "justification": "because under the PRINCE2 7 Issue Practice, any active event that has occurred, is causing disruption, and requires management attention must be formally captured as a problem/concern to initiate impact evaluation."
+            },
+            {
+              "letter": "B",
+              "text": "Record the synchronization error in the Risk Register as an opportunity",
+              "justification": "to maximize marketing visibility for the technical development squad's coding speed."
+            },
+            {
+              "letter": "C",
+              "text": "Add the lock-up script text directly into the high-level Business Case blueprint",
+              "justification": "to alter the project's macro strategic return-on-investment parameters instantly."
+            },
+            {
+              "letter": "D",
+              "text": "Note the error inside the pre-project Project Mandate document text",
+              "justification": "to rewrite the external business-as-usual trigger parameters issued by corporate executives."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 10 (Issue Practice - Issue Categorization) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "An event that has occurred, requires management intervention, and is not a request for change or off-specification is classified as a problem or concern. It must be entered into the Issue Register for structured tracking.",
+          "explain_wrong": {
+            "B": "A live, active software defect is a materialized problem, not a risk opportunity (which represents an uncertain future event that could bring benefits).",
+            "C": "The Business Case justifies the commercial viability; it does not track active, tactical software coding bugs.",
+            "D": "The Project Mandate is a static external trigger and cannot be used to manage or track dynamic execution-phase software bugs."
+          }
+        },
+        {
+          "question_id": 44,
+          "format_type": "principles",
+          "principle_focus": "ensure_continued_business_justification",
+          "marks": 1,
+          "stem": "During the stage boundary review for Stage 4, market intelligence shows a competitor has launched an identical agricultural micro-lending application, which reduces FinTech Mobile's projected market share by 40%. The platform's investment return remains positive but sits close to the minimum corporate threshold. Which action should the Executive take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Cancel the project immediately without conducting any data reviews",
+              "justification": "because any reduction in projected revenue completely invalidates the project baseline."
+            },
+            {
+              "letter": "B",
+              "text": "Re-evaluate the updated Business Case to confirm that the project remains viable, desirable, and strategically aligned before authorizing the next stage",
+              "justification": "because the 'ensure continued business justification' principle dictates that a project must have a valid reason to proceed throughout its lifecycle, and any shift in the benefits profile requires the directing level to validate that the investment is still worthwhile."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the project manager to erase the competitor data from the project logs",
+              "justification": "to shield the steering committee from viewing shifting external market realities."
+            },
+            {
+              "letter": "D",
+              "text": "Delegate all corporate capital investment alignment decisions to the agile software programmers",
+              "justification": "allowing code developers to modify macro financial return parameters autonomously."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Ensure Continued Business Justification) & Chapter 6 (Business Case Practice)",
+          "explain_correct": "A project must maintain business justification. If external market forces alter the expected benefits, the Business Case must be updated and reviewed by the Executive to re-verify that the project remains a sound investment before continuing.",
+          "explain_wrong": {
+            "A": "A reduction in benefits does not mean automatic cancellation if the project remains net-positive and strategically viable.",
+            "C": "Hiding market trends violates transparency requirements and breaks the core data-tracking obligations of project governance.",
+            "D": "The Project Board (specifically the Executive) holds accountability for business justification; it cannot be delegated to the delivery layer."
+          }
+        },
+        {
+          "question_id": 45,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "organization",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific governance or tracking requirement in the FinTech agile project (Items 1-3) with the correct PRINCE2 7 role responsible for its execution (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Accountable for providing independent verification to the board that the credit scoring modules satisfy national financial regulatory standards, remaining completely independent of the project manager's day-to-day actions."},
+              {"item_id": 2, "text": "Responsible for managing and controlling execution lines within a single stage, tracking work package progress, capturing issues, and escalating forecast tolerance breaches via exception reports."},
+              {"item_id": 3, "text": "Responsible for managing the delivery layer, running daily stand-ups, coordinating the software developers, and delivering completed, verified components to the project manager."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Project Assurance"},
+              {"option_letter": "B", "text": "Project Manager"},
+              {"option_letter": "C", "text": "Team Manager"},
+              {"option_letter": "D", "text": "Project Support"},
+              {"option_letter": "E", "text": "Senior User"},
+              {"option_letter": "F", "text": "Executive"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Project Assurance provides independent monitoring and verification of compliance and quality states on behalf of the board. Ref 5.4.6",
+              "item_2": "The project manager operates at the managing layer, responsible for day-to-day control of the stage within authorized boundaries. Ref 5.4.4",
+              "item_3": "The Team Manager operates at the delivery layer, responsible for producing the products within agreed work package parameters. Ref 5.4.5"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 16,
+      "scenario_title": "FinPay API Gateway Security Integration",
+      "scenario_context": "FinPay Global is upgrading its external API Gateway to comply with international electronic payment security standards. The project is currently in Stage 3 (Security Hardening and Penetration Validation). The project environment features a high-maturity governance framework. A designated Change Control Board (CCB) acts as the Change Authority for specialized modifications. Strained relationships exist between the bank's internal database administrators (the Customer) and the network vendor, SecureNet Ltd (the Supplier).",
+      "questions": [
+        {
+          "question_id": 46,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "processes",
+          "process_focus": "directing_a_project",
+          "marks": 1,
+          "stem": "SecureNet Ltd reports that an authentication loop exploit requires an immediate structural re-plan of Stage 3, creating a forecast cost tolerance breach. The project manager submits an Exception Report. Which action should the Project Board execute under the directing a project process?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Unilaterally delegate all financial draw controls directly to SecureNet Ltd's engineering squad",
+              "justification": "to eliminate administrative bottleneck overhead and accelerate code troubleshooting loops."
+            },
+            {
+              "letter": "B",
+              "text": "Review the Exception Report options, confirm continued business justification, and authorize a new Exception Plan baseline to recover control",
+              "justification": "because under the directing a project process, the board must evaluate exception paths and authorize an Exception Plan to replace the broken stage plan baseline if the project remains viable."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the project manager to hide the budget variance within the informal Lessons Log",
+              "justification": "to prevent corporate compliance monitors from tracking execution performance deviations."
+            },
+            {
+              "letter": "D",
+              "text": "Order an immediate suspension of all bank clearing operations nationwide without checking financial impacts",
+              "justification": "because the directing layer holds absolute operational authority to execute technical network adjustments personally."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 11 (Progress Practice - Exceptions) & Chapter 14 (Directing a Project Process)",
+          "explain_correct": "When a stage exception is escalated, the Project Board exercises control via the directing a project process. They review the Exception Report and, if satisfied with viability, authorize an Exception Plan to establish a new controlled baseline.",
+          "explain_wrong": {
+            "A": "The board cannot delegate ultimate financial or exception control to a supplier.",
+            "C": "Hiding budget overruns or exceptions in a lessons log violates standard reporting, data management, and governance rules.",
+            "D": "The board provides project direction and governance; they do not intervene in live business-as-usual operations or execute technical network repairs personally."
+          }
+        },
+        {
+          "question_id": 47,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "people",
+          "product_focus": "communication_management_approach",
+          "marks": 1,
+          "stem": "To resolve strained relationships between internal database administrators and SecureNet Ltd, the project manager wants to formalize explicit data-sharing rules, weekly notification channels, and documentation templates for technical exchanges. Where should this be documented?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Incorporate these information routing rules within the Communication Management Approach",
+              "justification": "because the communication management approach establishes the formal rules, channels, formats, frequencies, and responsibilities for information exchange among stakeholders, directly managing relationships under the People element."
+            },
+            {
+              "letter": "B",
+              "text": "Record the team meeting intervals inside individual Configuration Item Records",
+              "justification": "to link stakeholder communication profiles directly to the physical code versions of the firewall software."
+            },
+            {
+              "letter": "C",
+              "text": "List the data-sharing templates as final customer quality criteria inside the Project Product Description",
+              "justification": "to freeze the visual layout of status sheets before launching active testing stages."
+            },
+            {
+              "letter": "D",
+              "text": "Document the communication parameters within the long-term Benefits Management Approach ledger",
+              "justification": "to align daily technical conversations with post-project bank capital return timelines."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 3 (People Element) & Appendix A (Communication Management Approach)",
+          "explain_correct": "The Communication Management Approach defines the communication rules and methods for all stakeholders. Standardizing data-sharing formats and weekly channels to align strained project relationships is a key application of this product to support the People element.",
+          "explain_wrong": {
+            "B": "Configuration records track item metadata, versions, and dependencies, not human meeting cadences or reporting rules.",
+            "C": "The Project Product Description defines high-level output attributes, not operational team communication templates used during stage execution.",
+            "D": "The Benefits Management Approach maps post-project outcome evaluations, not tactical information exchange channels within an active stage."
+          }
+        },
+        {
+          "question_id": 48,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific plan product utilized in the API Gateway project (Items 1-3) with its correct PRINCE2 7 description statement (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "The mandatory high-level plan used by the board to monitor corporate resource consumption and track macro investment deliverables across the entire project lifecycle."},
+              {"item_id": 2, "text": "The detailed plan covering a single execution phase, used by the project manager to perform day-to-day control, track tolerances, and monitor work package baselines."},
+              {"item_id": 3, "text": "The operational plan authored optionally by a Team Manager to coordinate granular daily activities and tasks within an assigned work package boundary."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Project Plan"},
+              {"option_letter": "B", "text": "Stage Plan"},
+              {"option_letter": "C", "text": "Team Plan"},
+              {"option_letter": "D", "text": "Exception Plan"},
+              {"option_letter": "E", "text": "Project Brief"},
+              {"option_letter": "F", "text": "Product Flow Diagram"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "The Project Plan provides a business-wide overview of the project's products, timelines, costs, and key controls for board monitoring. Ref 8.4.1",
+              "item_2": "A Stage Plan details the execution parameters, resources, and specific tolerances for a single management stage. Ref 8.4.2",
+              "item_3": "A Team Plan is created by a Team Manager to plan the delivery of products defined in an authorized Work Package. Ref 8.4.3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 17,
+      "scenario_title": "AquaTech Desalination Plant Phase II",
+      "scenario_context": "AquaTech is executing Phase II of its sustainable water desalination facility construction. The project is currently in Stage 4 (Filtration Membrane Installation and Testing). The execution environment is governed by complex international engineering regulations and a strict commercial contract with a primary contractor, HydroBuild Group (the Supplier). The project incorporates an absolute corporate sustainability target: minimizing the filtration machinery's active electrical grid utilization by 15% through low-energy hydraulic recovery systems.",
+      "questions": [
+        {
+          "question_id": 49,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "progress",
+          "marks": 1,
+          "stem": "During Stage 4, HydroBuild Group notes that the low-energy hydraulic recovery valves have increased in price by £35,000. Sourcing standard hydraulic valves will preserve the stage cost baseline but will cause the energy-saving target to fail, dropping electrical efficiency savings down to 5%, which breaches the sustainability tolerance minimum limit. Which action must the project manager take?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Purchase the standard hydraulic valves immediately to prioritize the financial cost variable",
+              "justification": "because financial parameters always possess supreme authority over environmental commitments during active execution stages."
+            },
+            {
+              "letter": "B",
+              "text": "Log the variance in the register and submit an Exception Report to the Project Board",
+              "justification": "because sustainability is an elevated, independent project performance variable in PRINCE2 7, and a forecast breach of *any* agreed tolerance boundary constitutes an exception that requires direct escalation to the board for a decision."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the construction team to modify the monitoring meters to report false energy metrics",
+              "justification": "to preserve an illusion of environmental compliance on corporate dashboards."
+            },
+            {
+              "letter": "D",
+              "text": "Delete the Sustainability Management Approach from the Project Initiation Documentation",
+              "justification": "to eliminate energy utilization constraints from the project lifecycle entirely without board oversight."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 4 (Sustainability Context), Chapter 11 (Progress Practice - Tolerances), & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "Sustainability is one of the seven performance variables. If a variance or trade-off causes a forecast breach of sustainability tolerances, it creates an exception. The project manager must escalate the matter to the Project Board via an Exception Report.",
+          "explain_wrong": {
+            "A": "Sustainability is a primary project constraint and is not subordinate to cost parameters; adjustments require board authority.",
+            "C": "Falsifying metrics violates ethical codes and breaks data-driven control principles.",
+            "D": "The project manager has no authority to unilaterally delete an authorized approach or baseline constraint from the PID."
+          }
+        },
+        {
+          "question_id": 50,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "principles",
+          "principle_focus": "learn_from_experience",
+          "marks": 1,
+          "stem": "During membrane pressure testing, the installation crew discovers that pre-flushing the manifold joints cuts calibration time in half, a technique not documented in standard engineering manuals. The project manager wants to apply this insight to accelerate the subsequent testing blocks. Which action matches PRINCE2 principles?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Keep the flushing modification confidential within the local shipyard",
+              "justification": "to protect an artificial productivity buffer for the mechanical installation contractors."
+            },
+            {
+              "letter": "B",
+              "text": "Record the insight in the Lessons Log immediately and incorporate it into the planning for subsequent stages",
+              "justification": "because the 'learn from experience' principle requires that lessons are actively sought, recorded, and acted upon throughout the project lifecycle to drive efficiency and optimize performance variables."
+            },
+            {
+              "letter": "C",
+              "text": "Wait until the final closing a project process is launched to document any execution notes",
+              "justification": "because updating project log files during active management stages is strictly prohibited under the rules."
+            },
+            {
+              "letter": "D",
+              "text": "Update the initial pre-project Project Mandate document text layout directly",
+              "justification": "to alter the broad strategic goals issued by corporate executives before the project was funded."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Learn from Experience) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "Learning from experience operates continuously. When an operational efficiency or lesson is identified, it must be logged in the Lessons Log immediately so it can be utilized to optimize subsequent work packages and stages.",
+          "explain_wrong": {
+            "A": "Hoarding efficiencies breaks the collaborative culture and process optimization goals required by the framework.",
+            "C": "PRINCE2 promotes active continuous learning; delaying logs until closure prevents the current project from utilizing them to optimize performance.",
+            "D": "The Project Mandate is an external trigger and is never updated or modified to record tactical, mid-stage engineering discoveries."
+          }
+        },
+        {
+          "question_id": 51,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "controlling_a_stage",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific day-to-day management activity performed by the project manager during the AquaTech deployment phase (Items 1-3) with its correct PRINCE2 7 Process activity statement (Options A-F). Each option may be used once, more than once, or not at all.",
+            "items": [
+              {"item_id": 1, "text": "Reviewing the weekly Checkpoint Reports and risk data submitted by HydroBuild Group's team manager to verify actual progress against the Stage 4 baseline plan."},
+              {"item_id": 2, "text": "Drafting the periodic monthly Highlight Report to summarize stage progress, tolerance states, and risk trends for submission to the Project Board steering committee."},
+              {"item_id": 3, "text": "Formally checking the completed membrane alignment quality logs and sealing sign-offs before accepting the deliverable block from the supplier."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Review work package status"},
+              {"option_letter": "B", "text": "Report progress"},
+              {"option_letter": "C", "text": "Receive completed work packages"},
+              {"option_letter": "D", "text": "Authorize a work package"},
+              {"option_letter": "E", "text": "Take corrective action"},
+              {"option_letter": "F", "text": "Capture and examine issues and risks"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Reviewing work package status involves the project manager checking execution data from the delivery layer to maintain plan control. Ref 15.4.2",
+              "item_2": "Reporting progress is the specific activity where the project manager compiles Highlight Reports to update the board on stage health. Ref 15.4.4",
+              "item_3": "Receiving completed work packages requires verifying quality records to confirm products satisfy criteria before formal closure and acceptance. Ref 15.4.3"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "batch_meta": {
+    "batch_sequence": 2,
+    "questions_included": "19 to 54",
+    "running_total": 54
+  },
+  "scenarios": [
+    {
+      "scenario_id": 7,
+      "scenario_title": "BioPharma Therapeutic Drug Rollout (Continued)",
+      "scenario_context": "BioPharma is executing Stage 3 (Clinical Trials & Regulatory Compliance) for a volatile therapeutic drug asset under strict corporate expenditure limits. The risk environment fluctuates daily due to changing international healthcare legislation. The Senior Supplier (Director of Laboratory Research) must ensure all laboratory checks strictly match international molecular benchmarks.",
+      "questions": [
+        {
+          "question_id": 19,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "business_case",
+          "marks": 1,
+          "stem": "The project is at a stage boundary. The Vice President of Medical Affairs (Senior User) notes that changing healthcare legislation will increase the administrative cost of tracking clinical trials by £40,000, though the drug’s projected market value remains highly profitable. What is the correct next step for the project framework?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The project manager should unilaterally log the cost increase in the Daily Log and move directly into the next stage",
+              "justification": "because minor legislative budget fluctuations do not require a formal reassessment of the project’s strategic justification."
+            },
+            {
+              "letter": "B",
+              "text": "The Executive must update the Business Case with the new costs and re-verify the project’s viability before authorizing the next stage",
+              "justification": "because under the 'ensure continued business justification' principle, the project board must confirm the project remains viable, desirable, and achievable at every stage boundary before major capital is committed."
+            },
+            {
+              "letter": "C",
+              "text": "Instruct the Director of Laboratory Research to absorb the tracking costs within the technical laboratory testing budgets",
+              "justification": "because the supplier layer is individually accountable for maintaining the financial viability parameters of corporate healthcare investments."
+            },
+            {
+              "letter": "D",
+              "text": "Terminate the project immediately via the premature closure procedure",
+              "justification": "because any unexpected increase in active stage operational costs completely invalidates the project’s original baseline justification."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 2 (Principles - Ensure Continued Business Justification) & Chapter 6 (Business Case Practice)",
+          "explain_correct": "The Executive owns the Business Case and must re-verify that the project remains a worthwhile investment whenever factors alter the financial parameters, explicitly executed at stage boundaries.",
+          "explain_wrong": {
+            "A": "The project manager cannot bypass the board or unilaterally allocate funds for a baseline change via the daily log.",
+            "C": "Accountability for business justification rests with the Executive, not the Senior Supplier or delivery layer.",
+            "D": "Cost variations do not cause automatic termination if the project remains net-positive, desirable, and strategically aligned."
+          }
+        },
+        {
+          "question_id": 20,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "quality",
+          "marks": 1,
+          "stem": "The Director of Laboratory Research argues that because their internal chemical stability checking methodologies are highly proprietary, they should not record individual test failures within the project's centralized Quality Register. Is this position valid?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Yes, because proprietary supplier workflows are entirely insulated from customer management tracking products",
+              "justification": "ensuring commercial vendors protect intellectual property assets during active testing sweeps."
+            },
+            {
+              "letter": "B",
+              "text": "No, because the Quality Register must record all planned and executed quality activities across the project to maintain control",
+              "justification": "providing the project manager with the necessary progress data to monitor quality performance variables and verify that deliverables are fit for purpose before work package closure."
+            },
+            {
+              "letter": "C",
+              "text": "Yes, because the project manager only requires visibility into quality test logs during the final closing a project process",
+              "justification": "negating the need for active tracking during intermediate execution stages."
+            },
+            {
+              "letter": "D",
+              "text": "No, because only the Senior User possesses the individual contractual authority to write quality status updates directly into the supplier's registers",
+              "justification": "blocking the project manager from accessing raw laboratory validation sheets."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 7 (Quality Practice - Quality Register) & Chapter 15 (Controlling a Stage Process)",
+          "explain_correct": "The Quality Register is a mandatory management product. It must maintain a complete, centralized record of all quality controls, tests, and reviews to enable effective progress tracking and control by the project manager.",
+          "explain_wrong": {
+            "A": "Proprietary workflows do not absolve a project from logging standard quality controls required to guarantee governance and safety compliance.",
+            "C": "Waiting until closure to view quality data introduces catastrophic risk; quality must be tracked dynamically within stages.",
+            "D": "The project manager maintains and reviews the Quality Register as part of stage control, not the Senior User."
+          }
+        },
+        {
+          "question_id": 21,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "starting_up_a_project",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific activity performed during the 'starting up a project' process (Items 1-3) with its correct process purpose or description statement (Options A-F).",
+            "items": [
+              {"item_id": 1, "text": "Appointing the Executive and defining the high-level project management team structure to anchor the directing and managing layers."},
+              {"item_id": 2, "text": "Drafting the initial strategic outline containing the business justification baseline, product requirements, and scope boundaries to determine if the project is worth initiating."},
+              {"item_id": 3, "text": "Logging early operational assumptions, historical risks, and constraints into a diary file to ensure they are tracked before formal planning loops begin."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Appoint the executive and the project manager"},
+              {"option_letter": "B", "text": "Prepare the project brief"},
+              {"option_letter": "C", "text": "Create the daily log"},
+              {"option_letter": "D", "text": "Select the project approach"},
+              {"option_letter": "E", "text": "Plan the initiation stage"},
+              {"option_letter": "F", "text": "Authorize initiation"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Appointing key roles ensures the project has a clear governance structure before major resources are requested. Ref 13.4.1",
+              "item_2": "The Project Brief is the primary output of the start-up process, providing the foundation for the board's decision to launch initiation. Ref 13.4.3",
+              "item_3": "The Daily Log is initialized during start-up to capture initial risks, issues, and assumptions before formal registers are baseline-configured. Ref 13.4.2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "scenario_id": 8,
+      "scenario_title": "Urban Core Transit Portfolio Hub (Continued)",
+      "scenario_context": "The Urban Core Transit project operates inside a high-maturity organizational context delivered as part of a regional rail infrastructure portfolio framework. Strained relationships exist between the municipal government representatives (the Customer) and the civil engineering consortium (the Supplier) regarding cost overrun liabilities and sustainability reporting frequencies.",
+      "questions": [
+        {
+          "question_id": 22,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "practices",
+          "practice_focus": "plans",
+          "marks": 1,
+          "stem": "The civil engineering consortium manager wants to know the exact frequency and day of the week they must submit their localized construction progress summaries to the project manager during Stage 4. Which product contains this information?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "The Communication Management Approach",
+              "justification": "because it defines the formal rules, reporting types, frequencies, and responsibilities for all information exchange between project stakeholders and management layers, supporting relationship alignment under the People element."
+            },
+            {
+              "letter": "B",
+              "text": "The Configuration Item Record metadata sheets",
+              "justification": "because configuration management trackers link team progress updates directly to the physical structural properties of concrete pillars."
+            },
+            {
+              "letter": "C",
+              "text": "The Project Product Description text layout",
+              "justification": "because customer quality expectations dictate the weekly progress meeting schedules for external supplier networks."
+            },
+            {
+              "letter": "D",
+              "text": "The long-term Benefits Management Approach blueprint",
+              "justification": "because tactical engineering checkpoint intervals must match the 10-year macroeconomic tax credit audit timeline."
+            }
+          ],
+          "correct_answer": "A",
+          "citation": "PRINCE2 7 Manual, Chapter 3 (People Element) & Appendix A (Communication Management Approach)",
+          "explain_correct": "The Communication Management Approach is the definitive source for establishing the timing, formats, and channels for progress reporting across all project management layers.",
+          "explain_wrong": {
+            "B": "Configuration records track version history and asset relationships, not team reporting calendars.",
+            "C": "The Project Product Description establishes output requirements, not operational management reporting cadences.",
+            "D": "The Benefits Management Approach maps post-project outcome measurements, not active stage progress reporting frequencies."
+          }
+        },
+        {
+          "question_id": 23,
+          "format_type": "classic_1_mark",
+          "syllabus_area": "people",
+          "product_focus": "change_management_approach",
+          "marks": 1,
+          "stem": "Strained relationships between the customer and supplier engineers regarding scope interpretations are delaying layout choices. The project manager wants to apply a structured set of training and alignment workshops to guide the teams through the new collaboration framework. Where should these actions be formalized?",
+          "options": [
+            {
+              "letter": "A",
+              "text": "Inside the Risk Register as a mitigation transfer response strategy",
+              "justification": "ensuring commercial liability for team relationships is offloaded to a third-party legal mediator."
+            },
+            {
+              "letter": "B",
+              "text": "Within the Change Management Approach",
+              "justification": "because the change management approach defines the specific interventions, training plans, and stakeholder activities required to manage human and behavioral transformations, directly supporting collaboration under the People element."
+            },
+            {
+              "letter": "C",
+              "text": "Directly within the baseline Project Product Description text layout",
+              "justification": "to alter the final customer quality acceptance parameters to match supplier behavioral performance metrics."
+            },
+            {
+              "letter": "D",
+              "text": "In the informal Daily Log as an unmanaged personal journal reminder",
+              "justification": "to keep relational tracking data completely confidential from the project board steering committee."
+            }
+          ],
+          "correct_answer": "B",
+          "citation": "PRINCE2 7 Manual, Chapter 3 (People Element) & Appendix A (Change Management Approach)",
+          "explain_correct": "The change management approach outlines the specific interventions needed to facilitate organizational and human shifts, ensuring project roles collaborate effectively to adopt new processes.",
+          "explain_wrong": {
+            "A": "Team relationship workshops are behavioral change interventions, not legal risk transfer mechanisms.",
+            "C": "The Project Product Description governs product deliverables, not team interaction and cultural alignment methods.",
+            "D": "Structured alignment interventions impacting project performance targets must be formally planned in an approach document, not hidden in a scratchpad."
+          }
+        },
+        {
+          "question_id": 24,
+          "format_type": "matching_3_mark",
+          "syllabus_area": "processes",
+          "process_focus": "initiating_a_project",
+          "marks": 3,
+          "matching_context": {
+            "instructions": "Match the specific management product finalized during the 'initiating a project' process (Items 1-3) with its correct governance purpose (Options A-F).",
+            "items": [
+              {"item_id": 1, "text": "The management product detailing the project's data-tracking baselines, change control mechanisms, and exception escalation limits to define baseline parameters."},
+              {"item_id": 2, "text": "The product defining how, when, and by whom the project's environmental sustainability variables and lifetime carbon ceiling parameters will be monitored."},
+              {"item_id": 3, "text": "The consolidated master document aggregating the project brief, management approaches, and stage baseline files to serve as the single source of truth for execution controls."}
+            ],
+            "options": [
+              {"option_letter": "A", "text": "Project Control Document (or elements within the PID)"},
+              {"option_letter": "B", "text": "Sustainability Management Approach (or embedded PID section)"},
+              {"option_letter": "C", "text": "Project Initiation Documentation (PID)"},
+              {"option_letter": "D", "text": "Project Brief"},
+              {"option_letter": "E", "text": "Daily Log"},
+              {"option_letter": "F", "text": "End Stage Report"}
+            ],
+            "correct_pairings": [
+              {"item_id": 1, "matched_option": "A"},
+              {"item_id": 2, "matched_option": "B"},
+              {"item_id": 3, "matched_option": "C"}
+            ],
+            "rationales": {
+              "item_1": "Project controls define the governance frameworks, stage boundary parameters, and exception rules used by the manager and board to monitor execution. Ref 14.4.5",
+              "item_2": "The sustainability approach sets the framework for measuring and controlling environmental performance targets across active stages. Ref 4.3.4",
+              "item_3": "The PID consolidates all baseline planning, organizational, and control products to provide a baseline reference point for project governance. Ref 14.4.6"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
