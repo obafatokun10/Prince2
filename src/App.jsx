@@ -139,7 +139,7 @@ function WelcomeScreen({ onProfileSelect }) {
     <div style={styles.container}>
       <div style={styles.header}>
         <h1 style={styles.headerTitle}>PRINCE2 7 Practitioner</h1>
-        <p style={styles.headerSubtitle}>Practice Questions • 156 questions available</p>
+        <p style={styles.headerSubtitle}>Practice Questions • 180 questions available</p>
       </div>
 
       <div style={styles.card}>
@@ -228,6 +228,12 @@ function ClassicQuestion({ question, onAnswer }) {
   const [selected, setSelected] = useState(null);
   const [submitted, setSubmitted] = useState(false);
   const [confidence, setConfidence] = useState(null);
+
+  useEffect(() => {
+    setSelected(null);
+    setSubmitted(false);
+    setConfidence(null);
+  }, [question.question_id]);
 
   const handleSubmit = () => {
     if (selected === null) return;
@@ -348,6 +354,21 @@ function ClassicQuestion({ question, onAnswer }) {
               </div>
             )}
           </div>
+          <button
+            style={{ ...styles.button, width: '100%', marginTop: '16px' }}
+            onClick={() => {
+              onAnswer({
+                questionId: question.question_id,
+                answer: selected,
+                correct: selected === question.correct_answer,
+                confidence: confidence || 'guessed',
+                format: 'classic',
+                nextQuestion: true,
+              });
+            }}
+          >
+            Next Question →
+          </button>
         </div>
       )}
     </div>
@@ -357,6 +378,11 @@ function ClassicQuestion({ question, onAnswer }) {
 function MatchingQuestion({ question, onAnswer }) {
   const [selections, setSelections] = useState({});
   const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    setSelections({});
+    setSubmitted(false);
+  }, [question.question_id]);
 
   const handleSelect = (itemId, optionLetter) => {
     setSelections({ ...selections, [itemId]: optionLetter });
@@ -494,6 +520,21 @@ function MatchingQuestion({ question, onAnswer }) {
               <strong>Citation:</strong> {question.citation}
             </div>
           )}
+          <button
+            style={{ ...styles.button, width: '100%', marginTop: '16px' }}
+            onClick={() => {
+              onAnswer({
+                questionId: question.question_id,
+                selections,
+                correct: score,
+                total: 3,
+                format: 'matching',
+                nextQuestion: true,
+              });
+            }}
+          >
+            Next Question →
+          </button>
         </div>
       )}
     </div>
@@ -811,7 +852,7 @@ function HomeScreen({ profile, onLogout }) {
     <div style={styles.container}>
       <div style={styles.header}>
         <h1 style={styles.headerTitle}>Welcome, {profile}!</h1>
-        <p style={styles.headerSubtitle}>156 questions ready to practice</p>
+        <p style={styles.headerSubtitle}>180 questions ready to practice</p>
       </div>
 
       <div style={styles.card}>
@@ -856,7 +897,7 @@ function HomeScreen({ profile, onLogout }) {
       <div style={styles.card}>
         <h3>Question Bank</h3>
         <p style={{ margin: '0 0 8px 0', fontSize: '14px' }}>
-          <strong>Total:</strong> 156 questions (Batch 6 pending repair)
+          <strong>Total:</strong> 180 questions (all batches complete)
         </p>
         <p style={{ margin: '0 0 8px 0', fontSize: '14px' }}>
           <strong>Principles:</strong> ~18 questions
