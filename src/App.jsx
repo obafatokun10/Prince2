@@ -590,7 +590,14 @@ function ScenarioRun({ profile, onBack }) {
 
   if (showSectionScore) {
     const correctCount = answers.filter((a) => a.correct).length;
+    const wrongCount = answers.length - correctCount;
     const sectionScore = ((correctCount / answers.length) * 100).toFixed(1);
+    
+    let performanceMessage = '';
+    if (sectionScore >= 80) performanceMessage = 'Excellent work!';
+    else if (sectionScore >= 70) performanceMessage = 'Good job!';
+    else if (sectionScore >= 60) performanceMessage = 'Keep practicing!';
+    else performanceMessage = 'Review these topics';
 
     return (
       <div style={styles.container}>
@@ -600,16 +607,24 @@ function ScenarioRun({ profile, onBack }) {
             style={{
               padding: '24px',
               textAlign: 'center',
-              backgroundColor: '#f9f9f9',
+              backgroundColor: sectionScore >= 70 ? '#f1f8f4' : '#fff3f3',
               borderRadius: '4px',
               marginBottom: '16px',
+              borderLeft: `4px solid ${sectionScore >= 70 ? '#4caf50' : '#d32f2f'}`,
             }}
           >
-            <div style={{ fontSize: '48px', fontWeight: 'bold', color: '#1e4078' }}>
+            <div style={{ fontSize: '48px', fontWeight: 'bold', color: '#1e4078', marginBottom: '8px' }}>
               {correctCount}/{answers.length}
             </div>
-            <div style={{ fontSize: '18px', marginTop: '8px', color: '#666' }}>
-              {sectionScore}% correct
+            <div style={{ fontSize: '24px', fontWeight: '600', marginBottom: '8px', color: sectionScore >= 70 ? '#4caf50' : '#d32f2f' }}>
+              {sectionScore}%
+            </div>
+            <div style={{ fontSize: '16px', color: '#666', marginBottom: '16px' }}>
+              {performanceMessage}
+            </div>
+            <div style={{ fontSize: '14px', color: '#666' }}>
+              <div style={{ marginBottom: '4px' }}>✓ {correctCount} correct</div>
+              <div>✗ {wrongCount} incorrect</div>
             </div>
           </div>
           <button
@@ -642,9 +657,18 @@ function ScenarioRun({ profile, onBack }) {
         <button style={styles.button} onClick={() => setSelectedScenario(null)}>
           ← Back
         </button>
-        <span style={{ fontSize: '14px', color: '#666' }}>
-          {progress} / {selectedScenario.questions.length}
-        </span>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '12px', color: '#666', marginBottom: '4px' }}>Progress</div>
+          <div style={{ fontSize: '14px', fontWeight: '600' }}>
+            {progress} / {selectedScenario.questions.length}
+          </div>
+        </div>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '12px', color: '#666', marginBottom: '4px' }}>Score</div>
+          <div style={{ fontSize: '14px', fontWeight: '600', color: '#1e4078' }}>
+            {answers.filter(a => a.correct).length} / {answers.length}
+          </div>
+        </div>
       </div>
 
       <div style={{ ...styles.card, marginBottom: '16px', backgroundColor: '#f0f5fa' }}>
@@ -659,10 +683,12 @@ function ScenarioRun({ profile, onBack }) {
             const newAnswers = [...answers, answer];
             setAnswers(newAnswers);
 
-            if (progress < selectedScenario.questions.length) {
-              setCurrentQuestionIndex(progress);
-            } else {
-              setShowSectionScore(true);
+            if (answer.nextQuestion) {
+              if (progress < selectedScenario.questions.length) {
+                setCurrentQuestionIndex(progress);
+              } else {
+                setShowSectionScore(true);
+              }
             }
           }}
         />
@@ -673,10 +699,12 @@ function ScenarioRun({ profile, onBack }) {
             const newAnswers = [...answers, answer];
             setAnswers(newAnswers);
 
-            if (progress < selectedScenario.questions.length) {
-              setCurrentQuestionIndex(progress);
-            } else {
-              setShowSectionScore(true);
+            if (answer.nextQuestion) {
+              if (progress < selectedScenario.questions.length) {
+                setCurrentQuestionIndex(progress);
+              } else {
+                setShowSectionScore(true);
+              }
             }
           }}
         />
@@ -695,6 +723,7 @@ function ContinuousMode({ profile, onBack }) {
   });
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [seenQuestions, setSeenQuestions] = useState(new Set());
+  const [answers, setAnswers] = useState([]);
   const [filteredQuestions, setFilteredQuestions] = useState([]);
   const [showRecycleOverlay, setShowRecycleOverlay] = useState(false);
 
@@ -714,6 +743,7 @@ function ContinuousMode({ profile, onBack }) {
     }
     setCurrentQuestionIndex(0);
     setSeenQuestions(new Set());
+    setAnswers([]);
   }, [filters.syllabusArea, filters.focus]);
 
   if (filteredQuestions.length === 0) {
@@ -730,16 +760,50 @@ function ContinuousMode({ profile, onBack }) {
   }
 
   if (currentQuestionIndex >= filteredQuestions.length && seenQuestions.size > 0) {
+    const correctCount = answers.filter((a) => a.correct).length;
+    const wrongCount = answers.length - correctCount;
+    const score = ((correctCount / answers.length) * 100).toFixed(1);
+    
+    let performanceMessage = '';
+    if (score >= 80) performanceMessage = 'Excellent work!';
+    else if (score >= 70) performanceMessage = 'Good job!';
+    else if (score >= 60) performanceMessage = 'Keep practicing!';
+    else performanceMessage = 'Review these topics';
+
     return (
       <div style={styles.container}>
         <div style={styles.card}>
-          <h2>Questions Complete</h2>
-          <p>You've completed all {filteredQuestions.length} questions in this filter.</p>
+          <h2>Session Complete</h2>
+          <div
+            style={{
+              padding: '24px',
+              textAlign: 'center',
+              backgroundColor: score >= 70 ? '#f1f8f4' : '#fff3f3',
+              borderRadius: '4px',
+              marginBottom: '16px',
+              borderLeft: `4px solid ${score >= 70 ? '#4caf50' : '#d32f2f'}`,
+            }}
+          >
+            <div style={{ fontSize: '48px', fontWeight: 'bold', color: '#1e4078', marginBottom: '8px' }}>
+              {correctCount}/{answers.length}
+            </div>
+            <div style={{ fontSize: '24px', fontWeight: '600', marginBottom: '8px', color: score >= 70 ? '#4caf50' : '#d32f2f' }}>
+              {score}%
+            </div>
+            <div style={{ fontSize: '16px', color: '#666', marginBottom: '16px' }}>
+              {performanceMessage}
+            </div>
+            <div style={{ fontSize: '14px', color: '#666' }}>
+              <div style={{ marginBottom: '4px' }}>✓ {correctCount} correct</div>
+              <div>✗ {wrongCount} incorrect</div>
+            </div>
+          </div>
           <button
             style={{ ...styles.button, width: '100%', marginBottom: '8px' }}
             onClick={() => {
               setSeenQuestions(new Set());
               setCurrentQuestionIndex(0);
+              setAnswers([]);
             }}
           >
             Start Over
@@ -761,9 +825,18 @@ function ContinuousMode({ profile, onBack }) {
         <button style={styles.button} onClick={onBack}>
           ← Back
         </button>
-        <span style={{ fontSize: '14px', color: '#666' }}>
-          {progress} of {filteredQuestions.length}
-        </span>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '12px', color: '#666', marginBottom: '4px' }}>Progress</div>
+          <div style={{ fontSize: '14px', fontWeight: '600' }}>
+            {progress} of {filteredQuestions.length}
+          </div>
+        </div>
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '12px', color: '#666', marginBottom: '4px' }}>Score</div>
+          <div style={{ fontSize: '14px', fontWeight: '600', color: '#1e4078' }}>
+            {answers.filter(a => a.correct).length} / {answers.length}
+          </div>
+        </div>
       </div>
 
       <div style={{ ...styles.card, marginBottom: '16px', backgroundColor: '#f0f5fa' }}>
@@ -813,20 +886,30 @@ function ContinuousMode({ profile, onBack }) {
         <ClassicQuestion
           question={currentQuestion}
           onAnswer={(answer) => {
-            const newSeen = new Set(seenQuestions);
-            newSeen.add(currentQuestion.question_id);
-            setSeenQuestions(newSeen);
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
+            const newAnswers = [...answers, answer];
+            setAnswers(newAnswers);
+            
+            if (answer.nextQuestion) {
+              const newSeen = new Set(seenQuestions);
+              newSeen.add(currentQuestion.question_id);
+              setSeenQuestions(newSeen);
+              setCurrentQuestionIndex(currentQuestionIndex + 1);
+            }
           }}
         />
       ) : (
         <MatchingQuestion
           question={currentQuestion}
           onAnswer={(answer) => {
-            const newSeen = new Set(seenQuestions);
-            newSeen.add(currentQuestion.question_id);
-            setSeenQuestions(newSeen);
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
+            const newAnswers = [...answers, answer];
+            setAnswers(newAnswers);
+            
+            if (answer.nextQuestion) {
+              const newSeen = new Set(seenQuestions);
+              newSeen.add(currentQuestion.question_id);
+              setSeenQuestions(newSeen);
+              setCurrentQuestionIndex(currentQuestionIndex + 1);
+            }
           }}
         />
       )}
