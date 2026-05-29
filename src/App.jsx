@@ -484,14 +484,18 @@ function MatchingQuestion({ question, onAnswer }) {
     const allSelected = question.matching_context.items.every((item) => selections[item.item_id]);
     if (!allSelected) return;
 
-    const correct = question.matching_context.correct_pairings.filter(
+    const correctCount = question.matching_context.correct_pairings.filter(
       (pairing) => selections[pairing.item_id] === pairing.matched_option
     ).length;
+    
+    // Question is only correct if ALL 3 items are matched correctly
+    const isEntirelyCorrect = correctCount === 3;
 
     onAnswer({
       questionId: question.question_id,
       selections,
-      correct,
+      correct: isEntirelyCorrect,
+      correctCount: correctCount,
       total: 3,
       format: 'matching',
     });
@@ -729,6 +733,12 @@ function ScenarioRun({ profile, onBack }) {
                 correct: correctCount,
                 total: answers.length,
                 score: sectionScore,
+              });
+              // Flag wrong questions for later review
+              answers.forEach(ans => {
+                if (!ans.correct) {
+                  sessionStorageHelpers.toggleWrongQuestion(profile, ans.questionId);
+                }
               });
               setSelectedScenario(null);
               setAnswers([]);

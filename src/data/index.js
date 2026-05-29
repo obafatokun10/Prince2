@@ -1,16 +1,5 @@
-// Import all data files
-import meta from './gemini-code-1779704651183.json';
-import batch2 from './gemini-code-1779704657970.json';
-import batch3 from './gemini-code-1779704701225.json';
-import batch4a from './gemini-code-1779704727820.json';
-import batch4b from './gemini-code-1779704796429.json';
-import batch5 from './gemini-code-1779704804784.json';
-import batch6 from './gemini-code-1779706520802.json';
-import batch7 from './gemini-code-1779704825499.json';
-import batch8 from './gemini-code-1779704852320.json';
-import batch9 from './gemini-code-1779704867297.json';
-import batch10 from './gemini-code-1779704883616.json';
-import batch11 from './gemini-code-1779704895314.json';
+// Import clean PRINCE2 question bank
+import questionBankData from './questions-clean.json';
 
 /**
  * Helper to safely retrieve the focus key from a question.
@@ -27,33 +16,21 @@ function getFocus(question) {
 }
 
 /**
- * Merge all batch data files, de-duplicate scenarios, and prepare the question bank
+ * Load the clean PRINCE2 question bank
  */
 function loadQuestionBank() {
-  const allBatches = [meta, batch2, batch3, batch4a, batch4b, batch5, batch6, batch7, batch8, batch9, batch10, batch11];
-  
-  // De-duplicate scenarios by scenario_id
   const scenarioMap = new Map();
-  const allQuestions = [];
   
-  allBatches.forEach((batch) => {
-    if (batch.scenarios) {
-      batch.scenarios.forEach((scenario) => {
-        if (!scenarioMap.has(scenario.scenario_id)) {
-          scenarioMap.set(scenario.scenario_id, {
-            scenario_id: scenario.scenario_id,
-            scenario_title: scenario.scenario_title,
-            scenario_context: scenario.scenario_context,
-            questions: [],
-          });
-        }
-        // Add questions to the scenario
-        if (scenario.questions) {
-          scenarioMap.get(scenario.scenario_id).questions.push(...scenario.questions);
-        }
+  if (questionBankData.scenarios) {
+    questionBankData.scenarios.forEach((scenario) => {
+      scenarioMap.set(scenario.scenario_id, {
+        scenario_id: scenario.scenario_id,
+        scenario_title: scenario.scenario_title,
+        scenario_context: scenario.scenario_context,
+        questions: scenario.questions || [],
       });
-    }
-  });
+    });
+  }
   
   // Convert scenarios map to array and build question index
   const scenarios = Array.from(scenarioMap.values());
@@ -94,7 +71,7 @@ function loadQuestionBank() {
     totalQuestions,
     scenarios: scenarios.length,
     syllabusCounts,
-    note: 'All batches loaded successfully (1–11, 180 questions)',
+    note: 'Clean question bank loaded successfully (180 questions, no duplicates)',
   });
   
   return {
